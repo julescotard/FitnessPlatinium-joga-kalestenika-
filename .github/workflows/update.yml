@@ -2,8 +2,11 @@ name: Update FP (Joga/Kalistenika) ICS
 
 on:
   schedule:
-    # GitHub cron jest w UTC. 05:15 UTC = 06:15 w Polsce (zimą).
+    # GitHub cron jest w UTC.
+    # 07:15 w Polsce = 06:15 UTC (czas zimowy) lub 05:15 UTC (czas letni).
+    # Odpalamy OBA, a skrypt wykona się tylko, gdy lokalnie jest ~7:xx.
     - cron: "15 5 * * 1"
+    - cron: "15 6 * * 1"
   workflow_dispatch: {}
 
 permissions:
@@ -13,6 +16,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      # ręczne uruchomienie ma działać o każdej porze
+      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
 
