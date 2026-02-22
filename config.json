@@ -1,0 +1,74 @@
+{
+  "timezone": "Europe/Warsaw",
+  "days_ahead": 35,
+  "run_only_at_local_hour": 7,
+  "club_calendars": [
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar",
+    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar"
+  ],
+  "keywords": {
+    "yoga": [
+      "joga",
+      "yoga"
+    ],
+    "calisthenics": [
+      "kalistenika",
+      "kalestenika",
+      "calisthenics"
+    ]
+  },
+  "availability_windows": {
+    "mon": [
+      [
+        "08:00",
+        "11:00"
+      ]
+    ],
+    "wed": [
+      [
+        "08:00",
+        "11:00"
+      ]
+    ],
+    "thu": [
+      [
+        "17:00",
+        "19:00"
+      ]
+    ],
+    "fri": [
+      [
+        "17:00",
+        "19:00"
+      ]
+    ],
+    "sat": [
+      [
+        "08:00",
+        "11:00"
+      ],
+      [
+        "17:00",
+        "19:00"
+      ]
+    ]
+  },
+  "club_name_hints": [
+    "Aleksandry",
+    "Pokoju",
+    "Bratysławska",
+    "Cystersów",
+    "Klimeckiego",
+    "Stawowa",
+    "Reymonta",
+    "Zachodnia",
+    "Zakopiańska"
+  ]
+}
