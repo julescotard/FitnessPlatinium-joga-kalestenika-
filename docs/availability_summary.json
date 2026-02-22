@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-23T00:23:09+01:00",
+  "days_ahead": 35,
+  "clubs_seen": {
+    "Fitness Platinium Pokoju": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar"
+    },
+    "Fitness Platinium Aleksandry": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar"
+    },
+    "Fitness Platinium Bratysławska": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar"
+    },
+    "SmartPlatinium Classes URL: /Classes/8/Calendar": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar"
+    },
+    "Fitness Platinium Cystersów": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar"
+    },
+    "Fitness Platinium Klimeckiego": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar"
+    },
+    "SmartPlatinium Classes URL: /Classes/10/Calendar": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar"
+    },
+    "SmartPlatinium Classes URL: /Classes/5/Calendar": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar"
+    },
+    "Fitness Platinium Zachodnia": {
+      "yoga": false,
+      "calisthenics": false,
+      "ok": true,
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar"
+    }
+  },
+  "yoga_clubs": [],
+  "calisthenics_clubs": [],
+  "errors": []
+}
