@@ -1,15 +1,12 @@
-# Zmiany dostępności (joga/kalistenika)
-- wygenerowano: **2026-02-23T00:23:09+01:00**
-- zakres: **35 dni do przodu**
+# Zmiany (joga/kalistenika)
+- wygenerowano: **2026-02-24T20:58:06+01:00**
+- zakres: **42 dni do przodu**
+- terminy: all=0, yoga=0, calisthenics=0, moje_okna=0
 
-## Dodane lokalizacje
-- (brak)
+## Zmiany lokalizacji
+- dodane: 0
+- usunięte: 0
 
-## Usunięte lokalizacje
-- (brak)
-
-## Aktualnie (kluby z jogą)
-- (brak)
-
-## Aktualnie (kluby z kalisteniką)
-- (brak)
+## Zmiany terminów
+- nowe: 0
+- usunięte: 0
