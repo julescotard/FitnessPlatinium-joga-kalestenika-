@@ -1,0 +1,431 @@
+{
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "TrainerFilters": [
+        {
+          "Id": "261",
+          "Name": "Agata Wójcik"
+        },
+        {
+          "Id": "268",
+          "Name": "Anna Juza"
+        },
+        {
+          "Id": "328",
+          "Name": "Joanna Sikora"
+        }
+      ],
+      "CategoryFilters": [
+        {
+          "Id": "1",
+          "Name": "Zajęcia w ramach abonamentu"
+        },
+        {
+          "Id": "3",
+          "Name": "Body&Mind"
+        },
+        {
+          "Id": "11",
+          "Name": "Shape"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "63",
+          "Name": "Strefa Squash"
+        },
+        {
+          "Id": "41",
+          "Name": "Sala Fitness"
+        },
+        {
+          "Id": "42",
+          "Name": "Sala Indoor Cycling"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 7,
+          "Id": "377",
+          "Name": "ABS & CORE"
+        },
+        {
+          "CategoryId": 11,
+          "Id": "42",
+          "Name": "ABT"
+        },
+        {
+          "CategoryId": 4,
+          "Id": "412",
+          "Name": "BE ACTIVE"
+        }
+      ],
+      "ActivityCategoryFilters": []
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "TrainerFilters": [
+        {
+          "Id": "268",
+          "Name": "Anna Juza"
+        },
+        {
+          "Id": "297",
+          "Name": "Dominika Lenart"
+        },
+        {
+          "Id": "328",
+          "Name": "Joanna Sikora"
+        }
+      ],
+      "CategoryFilters": [
+        {
+          "Id": "8",
+          "Name": "Move&Choreography"
+        },
+        {
+          "Id": "3",
+          "Name": "Body&Mind"
+        },
+        {
+          "Id": "11",
+          "Name": "Shape"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "43",
+          "Name": "Sala Fitness"
+        },
+        {
+          "Id": "4",
+          "Name": "Fitness Platinium Aleksandry, Kraków"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 7,
+          "Id": "377",
+          "Name": "ABS & CORE"
+        },
+        {
+          "CategoryId": 11,
+          "Id": "42",
+          "Name": "ABT"
+        },
+        {
+          "CategoryId": 4,
+          "Id": "412",
+          "Name": "BE ACTIVE"
+        }
+      ],
+      "ActivityCategoryFilters": []
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "TrainerFilters": [
+        {
+          "Id": "261",
+          "Name": "Agata Wójcik"
+        },
+        {
+          "Id": "289",
+          "Name": "Barbara Adukowska"
+        },
+        {
+          "Id": "304",
+          "Name": "Ewa Pietrzyk"
+        }
+      ],
+      "CategoryFilters": [
+        {
+          "Id": "3",
+          "Name": "Body&Mind"
+        },
+        {
+          "Id": "11",
+          "Name": "Shape"
+        },
+        {
+          "Id": "7",
+          "Name": "Functional&Strength"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "5",
+          "Name": "Fitness Platinium Bratysławska, Kraków"
+        },
+        {
+          "Id": "44",
+          "Name": "Sala Fitness"
+        },
+        {
+          "Id": "45",
+          "Name": "Sala Shaper"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 7,
+          "Id": "377",
+          "Name": "ABS & CORE"
+        },
+        {
+          "CategoryId": 3,
+          "Id": "411",
+          "Name": "BE HEALTHY"
+        },
+        {
+          "CategoryId": 11,
+          "Id": "102",
+          "Name": "Body Shape"
+        }
+      ],
+      "ActivityCategoryFilters": []
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "CalendarData": [],
+      "PagerData": {
+        "Days": [
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "NextDate": "2026-03-02",
+        "PreviousDate": "2026-02-20",
+        "Date": "2026-02-25",
+        "CanGoForward": true,
+        "CanGoBack": false,
+        "QueryStartDate": "2026-02-25",
+        "QueryEndDate": "2026-02-25"
+      }
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "CalendarData": [
+        {
+          "Hour": "1900-01-01T18:00:00",
+          "Classes": [
+            {
+              "Id": 213768,
+              "Status": "Bookable",
+              "StatusReason": null,
+              "Name": "ROW Cross",
+              "StartTime": "2026-02-25T18:45:00",
+              "Duration": "PT1H-15M",
+              "BookingIndicator": {
+                "Indicator": 5,
+                "Limit": 20,
+                "Available": 18
+              },
+              "Trainer": "Wiktoria Galos",
+              "Users": [],
+              "HasRelatives": false,
+              "AllowBookSeatNumber": false,
+              "IsClassAvailableOnline": false,
+              "ClassRatingSummaryInfo": {
+                "TimeTableId": 124,
+                "RatingsCount": 1455,
+                "Rating": 4.968384879725086,
+                "Ranking": 5.0
+              },
+              "BookingPreReservationId": null
+            }
+          ]
+        }
+      ],
+      "PagerData": {
+        "Days": [
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "NextDate": "2026-03-02",
+        "PreviousDate": "2026-02-20",
+        "Date": "2026-02-25",
+        "CanGoForward": true,
+        "CanGoBack": false,
+        "QueryStartDate": "2026-02-25",
+        "QueryEndDate": "2026-02-25"
+      }
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "CalendarData": [],
+      "PagerData": {
+        "Days": [
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "NextDate": "2026-03-02",
+        "PreviousDate": "2026-02-20",
+        "Date": "2026-02-25",
+        "CanGoForward": true,
+        "CanGoBack": false,
+        "QueryStartDate": "2026-02-25",
+        "QueryEndDate": "2026-02-25"
+      }
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "CalendarData": [],
+      "PagerData": {
+        "Days": [
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "NextDate": "2026-03-02",
+        "PreviousDate": "2026-02-20",
+        "Date": "2026-02-25",
+        "CanGoForward": true,
+        "CanGoBack": false,
+        "QueryStartDate": "2026-02-25",
+        "QueryEndDate": "2026-02-25"
+      }
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "TrainerFilters": [
+        {
+          "Id": "289",
+          "Name": "Barbara Adukowska"
+        },
+        {
+          "Id": "332",
+          "Name": "Katarzyna Barnaś"
+        },
+        {
+          "Id": "449",
+          "Name": "Platinium Team"
+        }
+      ],
+      "CategoryFilters": [
+        {
+          "Id": "8",
+          "Name": "Move&Choreography"
+        },
+        {
+          "Id": "7",
+          "Name": "Functional&Strength"
+        },
+        {
+          "Id": "1",
+          "Name": "Zajęcia w ramach abonamentu"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "8",
+          "Name": "Fitness Platinium The Legend, Kraków"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 4,
+          "Id": "412",
+          "Name": "BE ACTIVE"
+        },
+        {
+          "CategoryId": 3,
+          "Id": "411",
+          "Name": "BE HEALTHY"
+        },
+        {
+          "CategoryId": 11,
+          "Id": "102",
+          "Name": "Body Shape"
+        }
+      ],
+      "ActivityCategoryFilters": []
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "TrainerFilters": [
+        {
+          "Id": "268",
+          "Name": "Anna Juza"
+        },
+        {
+          "Id": "363",
+          "Name": "Katarzyna Wieczorek"
+        },
+        {
+          "Id": "374",
+          "Name": "Michał Dziwina"
+        }
+      ],
+      "CategoryFilters": [
+        {
+          "Id": "3",
+          "Name": "Body&Mind"
+        },
+        {
+          "Id": "8",
+          "Name": "Move&Choreography"
+        },
+        {
+          "Id": "11",
+          "Name": "Shape"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "62",
+          "Name": "Sala Fitness"
+        },
+        {
+          "Id": "6",
+          "Name": "Fitness Platinium Zachodnia, Kraków"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 7,
+          "Id": "377",
+          "Name": "ABS & CORE"
+        },
+        {
+          "CategoryId": 11,
+          "Id": "42",
+          "Name": "ABT"
+        },
+        {
+          "CategoryId": 4,
+          "Id": "412",
+          "Name": "BE ACTIVE"
+        }
+      ],
+      "ActivityCategoryFilters": []
+    }
+  }
+}
