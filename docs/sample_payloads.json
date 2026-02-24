@@ -1,5 +1,5 @@
 {
-  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": {
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22": {
     "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
     "content_type": "application/json; charset=utf-8",
     "sample": {
@@ -65,6 +65,58 @@
       "ActivityCategoryFilters": []
     }
   },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "CalendarData": [
+        {
+          "Hour": "1900-01-01T20:00:00",
+          "Classes": [
+            {
+              "Id": 278960,
+              "Status": "Awaitable",
+              "StatusReason": null,
+              "Name": "JOGA HATHA",
+              "StartTime": "2026-02-25T20:00:00",
+              "Duration": "PT55M",
+              "BookingIndicator": {
+                "Indicator": 0,
+                "Limit": 15,
+                "Available": 0
+              },
+              "Trainer": "Viktoria Oshurkova",
+              "Users": [],
+              "HasRelatives": false,
+              "AllowBookSeatNumber": false,
+              "IsClassAvailableOnline": false,
+              "ClassRatingSummaryInfo": {
+                "TimeTableId": 296,
+                "RatingsCount": 470,
+                "Rating": 4.910638297872341,
+                "Ranking": 4.9
+              },
+              "BookingPreReservationId": null
+            }
+          ]
+        }
+      ],
+      "PagerData": {
+        "Days": [
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "NextDate": "2026-03-02",
+        "PreviousDate": "2026-02-20",
+        "Date": "2026-02-25",
+        "CanGoForward": true,
+        "CanGoBack": false,
+        "QueryStartDate": "2026-02-25",
+        "QueryEndDate": "2026-02-25"
+      }
+    }
+  },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21": {
     "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
     "content_type": "application/json; charset=utf-8",
@@ -128,6 +180,27 @@
     }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22": {
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "content_type": "application/json; charset=utf-8",
+    "sample": {
+      "CalendarData": [],
+      "PagerData": {
+        "Days": [
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "NextDate": "2026-03-02",
+        "PreviousDate": "2026-02-20",
+        "Date": "2026-02-25",
+        "CanGoForward": true,
+        "CanGoBack": false,
+        "QueryStartDate": "2026-02-25",
+        "QueryEndDate": "2026-02-25"
+      }
+    }
+  },
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": {
     "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
     "content_type": "application/json; charset=utf-8",
     "sample": {
@@ -141,8 +214,8 @@
           "Name": "Barbara Adukowska"
         },
         {
-          "Id": "304",
-          "Name": "Ewa Pietrzyk"
+          "Id": "301",
+          "Name": "Dominika Wasilewska"
         }
       ],
       "CategoryFilters": [
@@ -155,22 +228,22 @@
           "Name": "Shape"
         },
         {
-          "Id": "7",
-          "Name": "Functional&Strength"
+          "Id": "8",
+          "Name": "Move&Choreography"
         }
       ],
       "ZoneFilters": [
         {
-          "Id": "5",
-          "Name": "Fitness Platinium Bratysławska, Kraków"
-        },
-        {
-          "Id": "44",
+          "Id": "47",
           "Name": "Sala Fitness"
         },
         {
-          "Id": "45",
-          "Name": "Sala Shaper"
+          "Id": "48",
+          "Name": "Sala Indoor Cycling"
+        },
+        {
+          "Id": "11",
+          "Name": "Fitness Platinium Bronowice, Kraków"
         }
       ],
       "TimeTableFilters": [
@@ -180,111 +253,137 @@
           "Name": "ABS & CORE"
         },
         {
-          "CategoryId": 3,
-          "Id": "411",
-          "Name": "BE HEALTHY"
+          "CategoryId": 11,
+          "Id": "42",
+          "Name": "ABT"
         },
         {
-          "CategoryId": 11,
-          "Id": "102",
-          "Name": "Body Shape"
+          "CategoryId": 4,
+          "Id": "412",
+          "Name": "BE ACTIVE"
         }
       ],
       "ActivityCategoryFilters": []
     }
   },
-  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": {
-    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-    "content_type": "application/json; charset=utf-8",
-    "sample": {
-      "CalendarData": [],
-      "PagerData": {
-        "Days": [
-          "2026-02-25",
-          "2026-02-26",
-          "2026-02-27"
-        ],
-        "NextDate": "2026-03-02",
-        "PreviousDate": "2026-02-20",
-        "Date": "2026-02-25",
-        "CanGoForward": true,
-        "CanGoBack": false,
-        "QueryStartDate": "2026-02-25",
-        "QueryEndDate": "2026-02-25"
-      }
-    }
-  },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124": {
-    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
     "content_type": "application/json; charset=utf-8",
     "sample": {
-      "CalendarData": [
+      "TrainerFilters": [
         {
-          "Hour": "1900-01-01T18:00:00",
-          "Classes": [
-            {
-              "Id": 213768,
-              "Status": "Bookable",
-              "StatusReason": null,
-              "Name": "ROW Cross",
-              "StartTime": "2026-02-25T18:45:00",
-              "Duration": "PT1H-15M",
-              "BookingIndicator": {
-                "Indicator": 5,
-                "Limit": 20,
-                "Available": 18
-              },
-              "Trainer": "Wiktoria Galos",
-              "Users": [],
-              "HasRelatives": false,
-              "AllowBookSeatNumber": false,
-              "IsClassAvailableOnline": false,
-              "ClassRatingSummaryInfo": {
-                "TimeTableId": 124,
-                "RatingsCount": 1455,
-                "Rating": 4.968384879725086,
-                "Ranking": 5.0
-              },
-              "BookingPreReservationId": null
-            }
-          ]
+          "Id": "316",
+          "Name": "Jakub Gajewski"
+        },
+        {
+          "Id": "329",
+          "Name": "Julia Styła"
+        },
+        {
+          "Id": "431",
+          "Name": "Wiktoria Galos"
         }
       ],
-      "PagerData": {
-        "Days": [
-          "2026-02-25",
-          "2026-02-26",
-          "2026-02-27"
-        ],
-        "NextDate": "2026-03-02",
-        "PreviousDate": "2026-02-20",
-        "Date": "2026-02-25",
-        "CanGoForward": true,
-        "CanGoBack": false,
-        "QueryStartDate": "2026-02-25",
-        "QueryEndDate": "2026-02-25"
-      }
+      "CategoryFilters": [
+        {
+          "Id": "1",
+          "Name": "Zajęcia w ramach abonamentu"
+        },
+        {
+          "Id": "5",
+          "Name": "Endurance"
+        },
+        {
+          "Id": "4",
+          "Name": "Cardio&Shape"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "10",
+          "Name": "Fitness Platinium Cystersów, Kraków"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 1,
+          "Id": "346",
+          "Name": "INTRO"
+        },
+        {
+          "CategoryId": 3,
+          "Id": "386",
+          "Name": "ROW CISZA I SKUPIENIE"
+        },
+        {
+          "CategoryId": 4,
+          "Id": "124",
+          "Name": "ROW Cross"
+        }
+      ],
+      "ActivityCategoryFilters": []
     }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22": {
-    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+    "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
     "content_type": "application/json; charset=utf-8",
     "sample": {
-      "CalendarData": [],
-      "PagerData": {
-        "Days": [
-          "2026-02-25",
-          "2026-02-26",
-          "2026-02-27"
-        ],
-        "NextDate": "2026-03-02",
-        "PreviousDate": "2026-02-20",
-        "Date": "2026-02-25",
-        "CanGoForward": true,
-        "CanGoBack": false,
-        "QueryStartDate": "2026-02-25",
-        "QueryEndDate": "2026-02-25"
-      }
+      "TrainerFilters": [
+        {
+          "Id": "301",
+          "Name": "Dominika Wasilewska"
+        },
+        {
+          "Id": "304",
+          "Name": "Ewa Pietrzyk"
+        },
+        {
+          "Id": "318",
+          "Name": "Joanna Harat"
+        }
+      ],
+      "CategoryFilters": [
+        {
+          "Id": "1",
+          "Name": "Zajęcia w ramach abonamentu"
+        },
+        {
+          "Id": "7",
+          "Name": "Functional&Strength"
+        },
+        {
+          "Id": "11",
+          "Name": "Shape"
+        }
+      ],
+      "ZoneFilters": [
+        {
+          "Id": "9",
+          "Name": "Fitness Platinium Klimeckiego, Kraków"
+        },
+        {
+          "Id": "52",
+          "Name": "Sala Fitness"
+        }
+      ],
+      "TimeTableFilters": [
+        {
+          "CategoryId": 7,
+          "Id": "377",
+          "Name": "ABS & CORE"
+        },
+        {
+          "CategoryId": 4,
+          "Id": "412",
+          "Name": "BE ACTIVE"
+        },
+        {
+          "CategoryId": 3,
+          "Id": "411",
+          "Name": "BE HEALTHY"
+        }
+      ],
+      "ActivityCategoryFilters": []
     }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36": {

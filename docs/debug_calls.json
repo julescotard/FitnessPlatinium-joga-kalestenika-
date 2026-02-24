@@ -6,9 +6,9 @@
       "content_type": "text/html; charset=utf-8"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-locale?v=IrR-39M5TAJRfZekAqx7fHigxg0pSHMliPOV_T2S7bk1",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/temp/smartplatinium/Default/smartplatinium-Desktop.css?v=f791d793ca4824fa",
       "status": 200,
-      "content_type": "text/javascript; charset=utf-8"
+      "content_type": "text/css"
     },
     {
       "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-signalR",
@@ -21,14 +21,19 @@
       "content_type": "text/javascript; charset=utf-8"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Bundles/cp-scripts-Desktop?v=ryl05QjRvp3rm4E77IonheHtpjeLcmKkm3rbGZrqxWk1",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-locale?v=IrR-39M5TAJRfZekAqx7fHigxg0pSHMliPOV_T2S7bk1",
       "status": 200,
       "content_type": "text/javascript; charset=utf-8"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/temp/smartplatinium/Default/smartplatinium-Desktop.css?v=f791d793ca4824fa",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-baf?v=zJMNiLLO7M_tDAFBSgQmi0rmy_AhIS-45tP55AI2ULs1",
       "status": 200,
-      "content_type": "text/css"
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-vendor?v=Aquug2r5fbaHmptcV9symfo9khC1xJR3He3M7_1DOA01",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8"
     },
     {
       "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/Roboto/webfonts/Roboto-Regular-webfont.woff",
@@ -36,26 +41,14 @@
       "content_type": "font/x-woff"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-baf?v=zJMNiLLO7M_tDAFBSgQmi0rmy_AhIS-45tP55AI2ULs1",
-      "status": 200,
-      "content_type": "text/javascript; charset=utf-8"
-    }
-  ],
-  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": [
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/bundles/baf-scripts-desktop-vendor?v=Aquug2r5fbaHmptcV9symfo9khC1xJR3He3M7_1DOA01",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Bundles/cp-scripts-Desktop?v=ryl05QjRvp3rm4E77IonheHtpjeLcmKkm3rbGZrqxWk1",
       "status": 200,
       "content_type": "text/javascript; charset=utf-8"
     },
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Auth/Login/Identity",
-      "status": 401,
-      "content_type": ""
-    },
-    {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Clubs/GetAvailableClassesClubs",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/PageFooter/PageFooter?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
       "status": 200,
-      "content_type": "application/json; charset=utf-8"
+      "content_type": "text/html; charset=utf-8"
     },
     {
       "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Auth/Components/EmployeeFloatingButtonComponent?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
@@ -73,29 +66,9 @@
       "content_type": "text/html; charset=utf-8"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/Roboto/webfonts/Roboto-Light-webfont.woff",
-      "status": 200,
-      "content_type": "font/x-woff"
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/PageFooter/PageFooter?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/LanguagePicker/LanguagePicker?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
       "status": 200,
       "content_type": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Classes/Views/ClassesListView?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
-      "status": 200,
-      "content_type": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/CpIcons/CpIcons.ttf?lgy08b",
-      "status": 200,
-      "content_type": "application/octet-stream"
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/baf/Ui/Controls/Button/Button.html?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
-      "status": 200,
-      "content_type": "text/html"
     },
     {
       "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/Baf/Ui/Controls/Avatar/Avatar?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
@@ -103,7 +76,22 @@
       "content_type": "text/html; charset=utf-8"
     },
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/Roboto/webfonts/Roboto-Light-webfont.woff",
+      "status": 200,
+      "content_type": "font/x-woff"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/CpIcons/CpIcons.ttf?lgy08b",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Auth/Login/Identity",
+      "status": 401,
+      "content_type": ""
+    },
+    {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Culture/Languages",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
     },
@@ -113,7 +101,17 @@
       "content_type": "image/svg+xml"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/LanguagePicker/LanguagePicker?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Clubs/GetAvailableClassesClubs",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/baf/Ui/Controls/Button/Button.html?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Classes/Views/ClassesListView?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
       "status": 200,
       "content_type": "text/html; charset=utf-8"
     },
@@ -133,9 +131,44 @@
       "content_type": "text/html; charset=utf-8"
     },
     {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/Navbar/NavbarComponent?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/Baf/Ui/Controls/Form/ComboBoxDropdown?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/UserNotifications/UserNotifications?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/CpIconsNew/CpIconsNew1/new_icons_1.ttf?2lx4gp",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Classes/Components/ClassItem/ClassItemComponent?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/baf/Ui/Controls/Form/Rating/Rating?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
     },
     {
       "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/Khand/webfonts/khand-semibold-webfont.woff2",
@@ -143,17 +176,17 @@
       "content_type": "application/font-woff2"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/Navbar/NavbarComponent?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/Baf/Assets/Icons/StreamlineIcons.ttf?lgy08b",
       "status": 200,
-      "content_type": "text/html; charset=utf-8"
+      "content_type": "application/octet-stream"
     },
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Culture/Languages",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8"
+      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/v2/FileStore/Image/1513439/A9C1332F1FEBE8873483120879004EF9C0FB948C63E50E751172263387B62ABC?h=80",
+      "status": 302,
+      "content_type": ""
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Content/Fonts/CpIconsNew/CpIconsNew1/new_icons_1.ttf?2lx4gp",
+      "url": "https://pgplstoragev2.perfectgymcdn.com/smartplatinium/filestorage22f74c6b9d1849ba99ac87420b1da711?sv=2025-05-05&st=2026-02-24T23%3A50%3A12Z&se=2026-02-25T00%3A00%3A12Z&sr=b&sp=r&rscd=inline%3Bfilename%3D%22logo_sg_copy.png%22%3B&sig=O1v5LM9M9f9N6yOboU8fOMOim1SOMnTxdO9u2qtFSjY%3D",
       "status": 200,
       "content_type": "application/octet-stream"
     },
@@ -166,46 +199,33 @@
       "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/Baf/Ui/Controls/Form/ComboBox?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
       "status": 200,
       "content_type": "text/html; charset=utf-8"
-    },
+    }
+  ],
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": [
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Classes/Components/ClassItem/ClassItemComponent?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
       "status": 200,
-      "content_type": "text/html; charset=utf-8"
+      "content_type": "application/json; charset=utf-8"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Components/UserNotifications/UserNotifications?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
       "status": 200,
-      "content_type": "text/html; charset=utf-8"
+      "content_type": "application/json; charset=utf-8"
     },
     {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/v2/FileStore/Image/1513439/A9C1332F1FEBE8873483120879004EF9C0FB948C63E50E751172263387B62ABC?h=80",
-      "status": 302,
-      "content_type": ""
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/baf/Ui/Controls/Form/Rating/Rating?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
       "status": 200,
-      "content_type": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/Baf/Assets/Icons/StreamlineIcons.ttf?lgy08b",
-      "status": 200,
-      "content_type": "application/octet-stream"
-    },
-    {
-      "url": "https://polandv2.perfectgymcdn.com/smartplatinium/cp/Libs/Baf/Ui/Controls/Form/ComboBoxDropdown?c=0&lang=pl&mode=desktop&version=4.930.2274.216",
-      "status": 200,
-      "content_type": "text/html; charset=utf-8"
-    },
-    {
-      "url": "https://pgplstoragev2.perfectgymcdn.com/smartplatinium/filestorage22f74c6b9d1849ba99ac87420b1da711?sv=2025-05-05&st=2026-02-24T23%3A12%3A39Z&se=2026-02-24T23%3A22%3A39Z&sr=b&sp=r&rscd=inline%3Bfilename%3D%22logo_sg_copy.png%22%3B&sig=n5snO0zOHVL59hcgrQewpe%2FmC97k7RW32yot17%2Fmqu0%3D",
-      "status": 200,
-      "content_type": "application/octet-stream"
+      "content_type": "application/json; charset=utf-8"
     }
   ],
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21": [
     {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
     },
@@ -222,12 +242,12 @@
   ],
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22": [
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
     },
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
     },
@@ -239,12 +259,12 @@
   ],
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": [
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
     },
     {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
       "status": 200,
       "content_type": "application/json; charset=utf-8"
     },
@@ -255,11 +275,6 @@
     }
   ],
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124": [
-    {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8"
-    },
     {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
       "status": 200,
@@ -282,11 +297,6 @@
     }
   ],
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22": [
-    {
-      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8"
-    },
     {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
       "status": 200,
@@ -316,6 +326,11 @@
     }
   ],
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22": [
+    {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Auth/Login/Identity",
+      "status": 401,
+      "content_type": ""
+    },
     {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
       "status": 200,
