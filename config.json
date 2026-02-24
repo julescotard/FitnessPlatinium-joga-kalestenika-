@@ -3,16 +3,17 @@
   "days_ahead": 35,
   "run_only_at_local_hour": 7,
   "club_calendars": [
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar",
-    "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar"
-  ],
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22",
+  "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21"
+],
   "keywords": {
     "yoga": [
       "joga",
