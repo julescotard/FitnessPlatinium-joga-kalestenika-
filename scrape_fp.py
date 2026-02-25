@@ -429,6 +429,8 @@ def main() -> None:
     args = ap.parse_args()
 
     cfg = _load_config(args.config)
+    # Force category per timetableId (np. "36": "calisthenics")
+force_map = {str(k): str(v).lower() for k, v in (cfg.get("timetable_force_category", {}) or {}).items()}
     tz_name = cfg.get("timezone", "Europe/Warsaw")
     tz = ZoneInfo(tz_name)
 
@@ -484,6 +486,11 @@ def main() -> None:
         page = context.new_page()
 
         for cal_url in cfg["club_calendars"]:
+            m = re.search(r"timeTableId=(\d+)", cal_url)
+tt_id = m.group(1) if m else "unknown"
+forced = force_map.get(tt_id)
+if forced not in (None, "yoga", "calisthenics"):
+    forced = None
             club_fallback = f"SmartPlatinium Classes URL: {cal_url.split('#')[-1]}"
             club_name = club_fallback
             captured_blobs: List[Any] = []
@@ -634,8 +641,8 @@ def main() -> None:
                         hay = _norm(name + " " + _collect_all_strings(obj))
 
                         category = None
-                        if tt and str(tt) in forced:
-                            category = forced[str(tt)]
+                        if forced:
+                            category = forced
                         else:
                             if any(k in hay for k in keywords["yoga"]):
                                 category = "yoga"
@@ -674,8 +681,8 @@ def main() -> None:
                             continue
 
                         # IMPORTANT: UID includes start time to avoid collapsing recurring classes.
-                        uid_seed = f"{club_name}|{tt or ''}|{start_local.isoformat()}|{name}"
-                        uid = _event_uid(uid_seed)
+uid_seed = f"{tt_id}|{club_name}|{name}|{start_local.isoformat()}|{end_local.isoformat()}"
+uid = _event_uid(uid_seed)
 
                         all_events.append(Event(
                             uid=uid,
