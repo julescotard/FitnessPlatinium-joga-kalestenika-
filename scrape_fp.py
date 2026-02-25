@@ -23,7 +23,7 @@ DT_KEYS_START = [
     "startsAt", "StartsAt", "dateFrom", "DateFrom", "from", "From", "begin", "Begin",
     "startUtc", "StartUtc", "startUTC", "StartUTC",
     "startDateUtc", "StartDateUtc", "startDateTimeUtc", "StartDateTimeUtc", "startDateTimeUTC", "StartDateTimeUTC",
-    "StartTime"  # PerfectGym uses this in DailyClasses items
+    "StartTime"
 ]
 DT_KEYS_END = [
     "end", "End", "endDate", "EndDate", "endDateTime", "EndDateTime",
@@ -39,7 +39,7 @@ NAME_KEYS_PRIMARY = [
     "className", "ClassName",
     "displayName", "DisplayName",
     "title", "Title",
-    "name", "Name",  # <-- IMPORTANT for DailyClasses: "Name"
+    "name", "Name",
 ]
 
 
@@ -207,7 +207,6 @@ def _extract_name(d: Dict[str, Any]) -> Optional[str]:
         v = d.get(k)
         if isinstance(v, str) and v.strip():
             return v.strip()
-    # nested objects
     for k in ["service", "Service", "activity", "Activity", "classType", "ClassType"]:
         v = d.get(k)
         if isinstance(v, dict):
@@ -218,26 +217,41 @@ def _extract_name(d: Dict[str, Any]) -> Optional[str]:
     return None
 
 
+def _collect_all_strings(d: Dict[str, Any], max_items: int = 50) -> str:
+    """Zbiera teksty z obiektu (żeby łapać nazwy także gdy nie są w polu Name)."""
+    out: List[str] = []
+    def rec(x: Any):
+        if len(out) >= max_items:
+            return
+        if isinstance(x, dict):
+            for v in x.values():
+                rec(v)
+        elif isinstance(x, list):
+            for v in x[:10]:
+                rec(v)
+        elif isinstance(x, str):
+            if x.strip():
+                out.append(x.strip())
+    rec(d)
+    return " ".join(out)
+
+
 def _parse_duration_to_minutes(value: Any) -> Optional[int]:
-    """PerfectGym uses Duration like 'PT1H-15M' (meaning 1h15m)."""
     if not value:
         return None
     s = str(value).strip()
     if not s:
         return None
-    # Normalize odd 'PT1H-15M' -> 'PT1H15M'
-    s = s.replace("-", "")
-    # ISO 8601 duration PT#H#M
+    s = s.replace("-", "")  # PT1H-15M -> PT1H15M
     m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", s)
     if m:
         h = int(m.group(1) or 0)
         mi = int(m.group(2) or 0)
         sec = int(m.group(3) or 0)
         return h * 60 + mi + (1 if sec >= 30 else 0)
-    # Sometimes minutes as number
     if s.isdigit():
         n = int(s)
-        if 0 < n < 24*60:
+        if 0 < n < 24 * 60:
             return n
     return None
 
@@ -334,7 +348,6 @@ def _write_ics(path: str, cal_name: str, events: List[Event], tz_name: str) -> N
 
 
 def _try_parse_json_text(txt: str) -> Optional[Any]:
-    # strip anti-XSSI prefix: keep from first { or [
     if not txt:
         return None
     t = txt.strip()
@@ -447,6 +460,10 @@ def main() -> None:
             captured_blobs: List[Any] = []
             calls: List[Dict[str, object]] = []
 
+            # store multiple samples per timetable
+            if cal_url not in sample_payloads:
+                sample_payloads[cal_url] = {"filters": None, "daily_empty": None, "daily_nonempty": None}
+
             def on_response(resp):
                 try:
                     ct = (resp.headers.get("content-type", "") or "").lower()
@@ -466,13 +483,28 @@ def main() -> None:
                         if txt:
                             obj = _try_parse_json_text(txt)
 
-                    if obj is not None:
-                        captured_blobs.append(obj)
-                        if (cal_url not in sample_payloads) and ("DailyClasses" in resp.url or "ClassCalendar" in resp.url):
-                            sample_payloads[cal_url] = {
-                                "url": resp.url,
-                                "content_type": ct[:80],
-                                "sample": _shrink_payload(obj, limit_items=3),
+                    if obj is None:
+                        return
+
+                    captured_blobs.append(obj)
+
+                    # Save samples: prefer DailyClasses with data
+                    if "GetCalendarFilters" in resp.url and sample_payloads[cal_url]["filters"] is None:
+                        sample_payloads[cal_url]["filters"] = {
+                            "url": resp.url, "content_type": ct[:80], "sample": _shrink_payload(obj, 3)
+                        }
+
+                    if "DailyClasses" in resp.url:
+                        # store empty sample if first time
+                        if sample_payloads[cal_url]["daily_empty"] is None:
+                            sample_payloads[cal_url]["daily_empty"] = {
+                                "url": resp.url, "content_type": ct[:80], "sample": _shrink_payload(obj, 3)
+                            }
+                        # store first non-empty calendar sample
+                        cal = obj.get("CalendarData") if isinstance(obj, dict) else None
+                        if isinstance(cal, list) and len(cal) > 0 and sample_payloads[cal_url]["daily_nonempty"] is None:
+                            sample_payloads[cal_url]["daily_nonempty"] = {
+                                "url": resp.url, "content_type": ct[:80], "sample": _shrink_payload(obj, 3)
                             }
                 except Exception:
                     pass
@@ -483,6 +515,7 @@ def main() -> None:
                 list_url = cal_url.replace("/Calendar", "/List")
                 page.goto(list_url, wait_until="domcontentloaded", timeout=60000)
 
+                # cookies
                 for txt in ["Akceptuj", "Zgadzam się", "Rozumiem", "Accept"]:
                     try:
                         btn = page.get_by_role("button", name=re.compile(txt, re.I))
@@ -492,10 +525,15 @@ def main() -> None:
                     except Exception:
                         pass
 
-                page.wait_for_timeout(3000)
-                for _ in range(16):  # a bit more scroll to load more days
-                    page.mouse.wheel(0, 2400)
-                    page.wait_for_timeout(750)
+                page.wait_for_timeout(3500)
+
+                # scroll more to load more days
+                for _ in range(70):
+                    page.mouse.wheel(0, 2600)
+                    page.wait_for_timeout(450)
+
+                # small wait for network to settle
+                page.wait_for_timeout(2000)
 
                 try:
                     club_name = _guess_club_name(page.inner_text("body"), hints, club_fallback)
@@ -512,12 +550,13 @@ def main() -> None:
                             continue
 
                         name = _extract_name(obj) or ""
-                        name_n = _norm(name)
+                        # search keywords across the whole object, not only the name
+                        hay = _norm(name + " " + _collect_all_strings(obj))
 
                         category = None
-                        if any(k in name_n for k in keywords["yoga"]):
+                        if any(k in hay for k in keywords["yoga"]):
                             category = "yoga"; yoga_any = True
-                        elif any(k in name_n for k in keywords["calisthenics"]):
+                        elif any(k in hay for k in keywords["calisthenics"]):
                             category = "calisthenics"; cal_any = True
                         else:
                             continue
@@ -537,12 +576,10 @@ def main() -> None:
                         if end_dt:
                             end_local = end_dt.astimezone(tz) if end_dt.tzinfo else end_dt.replace(tzinfo=tz)
                         else:
-                            # Try duration
                             dur_min = _parse_duration_to_minutes(obj.get("Duration") or obj.get("duration"))
                             if dur_min and dur_min >= 10:
                                 end_local = start_local + timedelta(minutes=dur_min)
                             else:
-                                # Or explicit end time
                                 d1 = _extract_date(obj) or start_local.date()
                                 t1 = _extract_time(obj, TIME_END_KEYS)
                                 if t1:
@@ -555,7 +592,8 @@ def main() -> None:
                         if not (start_cutoff <= start_local < end_cutoff):
                             continue
 
-                        uid_seed = str(obj.get("Id") or obj.get("id") or obj.get("classId") or obj.get("eventId") or f"{club_name}|{name}|{start_local.isoformat()}|{end_local.isoformat()}")
+                        uid_seed = str(obj.get("Id") or obj.get("id") or obj.get("classId") or obj.get("eventId")
+                                       or f"{club_name}|{name}|{start_local.isoformat()}|{end_local.isoformat()}")
                         uid = _event_uid(uid_seed)
 
                         all_events.append(Event(
@@ -580,7 +618,7 @@ def main() -> None:
                     "calls": len(calls),
                     "events_found": events_here,
                 }
-                debug_calls[cal_url] = calls[:250]
+                debug_calls[cal_url] = calls[:400]
 
             except PlaywrightTimeoutError:
                 errors.append(f"TIMEOUT: {cal_url}")
