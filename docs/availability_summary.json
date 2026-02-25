@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T08:34:20+01:00",
+  "generated_at": "2026-02-25T13:08:03+01:00",
   "days_ahead": 42,
   "event_counts": {
     "all": 2,
@@ -14,9 +14,9 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/List?timeTableId=22",
-      "blobs": 5,
+      "blobs": 47,
       "calls": 40,
-      "events_found": 2
+      "events_found": 44
     },
     "Fitness Platinium Pokoju :: 296": {
       "yoga": true,
@@ -24,9 +24,9 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/List?timeTableId=296",
-      "blobs": 3,
+      "blobs": 45,
       "calls": 3,
-      "events_found": 2
+      "events_found": 44
     },
     "Fitness Platinium Aleksandry :: 21": {
       "yoga": false,
@@ -34,7 +34,7 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/List?timeTableId=21",
-      "blobs": 3,
+      "blobs": 45,
       "calls": 4,
       "events_found": 0
     },
@@ -44,7 +44,7 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/List?timeTableId=22",
-      "blobs": 3,
+      "blobs": 45,
       "calls": 3,
       "events_found": 0
     },
@@ -54,8 +54,8 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/List?timeTableId=22",
-      "blobs": 3,
-      "calls": 4,
+      "blobs": 45,
+      "calls": 3,
       "events_found": 0
     },
     "Fitness Platinium Cystersów :: 124": {
@@ -64,8 +64,8 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/List?timeTableId=124",
-      "blobs": 2,
-      "calls": 4,
+      "blobs": 45,
+      "calls": 5,
       "events_found": 0
     },
     "Fitness Platinium Klimeckiego :: 22": {
@@ -74,8 +74,8 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/List?timeTableId=22",
-      "blobs": 2,
-      "calls": 2,
+      "blobs": 45,
+      "calls": 4,
       "events_found": 0
     },
     "SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 :: 36": {
@@ -84,7 +84,7 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/List?timeTableId=36",
-      "blobs": 3,
+      "blobs": 45,
       "calls": 3,
       "events_found": 0
     },
@@ -94,8 +94,8 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/List?timeTableId=22",
-      "blobs": 3,
-      "calls": 4,
+      "blobs": 45,
+      "calls": 3,
       "events_found": 0
     },
     "Fitness Platinium Zachodnia :: 21": {
@@ -104,7 +104,7 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/List?timeTableId=21",
-      "blobs": 3,
+      "blobs": 45,
       "calls": 3,
       "events_found": 0
     }

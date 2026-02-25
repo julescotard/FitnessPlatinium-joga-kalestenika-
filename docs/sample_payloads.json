@@ -2,7 +2,6 @@
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -66,9 +65,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [
           {
@@ -76,7 +74,7 @@
             "Classes": [
               {
                 "Id": 278939,
-                "Status": "FullBooked",
+                "Status": "Awaitable",
                 "StatusReason": null,
                 "Name": "Joga",
                 "StartTime": "2026-02-25T19:00:00",
@@ -118,9 +116,8 @@
         }
       }
     },
-    "daily_nonempty": {
+    "daily_with_data": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [
           {
@@ -128,7 +125,7 @@
             "Classes": [
               {
                 "Id": 278939,
-                "Status": "FullBooked",
+                "Status": "Awaitable",
                 "StatusReason": null,
                 "Name": "Joga",
                 "StartTime": "2026-02-25T19:00:00",
@@ -169,12 +166,23 @@
           "QueryEndDate": "2026-02-25"
         }
       }
+    },
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
     }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -238,9 +246,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [
           {
@@ -290,9 +297,8 @@
         }
       }
     },
-    "daily_nonempty": {
+    "daily_with_data": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [
           {
@@ -341,12 +347,23 @@
           "QueryEndDate": "2026-02-25"
         }
       }
+    },
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
     }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -406,9 +423,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -427,12 +443,23 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -496,9 +523,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -517,12 +543,23 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -586,9 +623,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -607,12 +643,23 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -668,9 +715,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [
           {
@@ -686,7 +732,7 @@
                 "BookingIndicator": {
                   "Indicator": 5,
                   "Limit": 20,
-                  "Available": 18
+                  "Available": 17
                 },
                 "Trainer": "Wiktoria Galos",
                 "Users": [],
@@ -720,9 +766,8 @@
         }
       }
     },
-    "daily_nonempty": {
+    "daily_with_data": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [
           {
@@ -738,7 +783,7 @@
                 "BookingIndicator": {
                   "Indicator": 5,
                   "Limit": 20,
-                  "Available": 18
+                  "Available": 17
                 },
                 "Trainer": "Wiktoria Galos",
                 "Users": [],
@@ -771,12 +816,23 @@
           "QueryEndDate": "2026-02-25"
         }
       }
+    },
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
     }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -836,9 +892,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -857,12 +912,23 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -926,9 +992,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -947,12 +1012,23 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -1008,9 +1084,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -1029,12 +1104,23 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21": {
     "filters": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "TrainerFilters": [
           {
@@ -1094,9 +1180,8 @@
         "ActivityCategoryFilters": []
       }
     },
-    "daily_empty": {
+    "daily_any": {
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
-      "content_type": "application/json; charset=utf-8",
       "sample": {
         "CalendarData": [],
         "PagerData": {
@@ -1115,6 +1200,18 @@
         }
       }
     },
-    "daily_nonempty": null
+    "daily_with_data": null,
+    "daily_request_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "method": "POST",
+      "headers": {
+        "x-requested-with": "XMLHttpRequest",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "payload_keys": [
+        "clubId",
+        "timeTableId"
+      ]
+    }
   }
 }
