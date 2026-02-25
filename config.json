@@ -29,6 +29,9 @@
       "calisthenics"
     ]
   },
+  "timetable_force_category": {
+  "36": "calisthenics"
+},
   "availability_windows": {
     "mon": [
       [
