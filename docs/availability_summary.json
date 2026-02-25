@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T13:28:58+01:00",
+  "generated_at": "2026-02-25T20:18:55+01:00",
   "days_ahead": 42,
   "event_counts": {
     "all": 9,
@@ -46,9 +46,9 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22",
-      "blobs": 2,
-      "calls": 2,
-      "events_found": 1,
+      "blobs": 3,
+      "calls": 3,
+      "events_found": 2,
       "template_captured": false,
       "template_method": null
     },
@@ -112,8 +112,8 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21",
-      "blobs": 2,
-      "calls": 2,
+      "blobs": 3,
+      "calls": 3,
       "events_found": 0,
       "template_captured": false,
       "template_method": null
