@@ -8,27 +8,111 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:cad4558f3fc26159f3b4cd8739b01c9740f3006c@fp-smartplatinium
-DTSTAMP:20260225T120803Z
+UID:73aac8c152bc1620d599b393494ad28ce2e6789a@fp-smartplatinium
+DTSTAMP:20260225T122858Z
 DTSTART:20260225T180000Z
 DTEND:20260225T185500Z
 SUMMARY:Joga — Joga
 LOCATION:Fitness Platinium Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/List?timeTableId=22
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/List?tim
- eTableId=22
+ /Classes/4/Calendar?timeTableId=22
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22
 END:VEVENT
 BEGIN:VEVENT
-UID:b3f07f708601f0816a9bc5f6bc45c51db71f4933@fp-smartplatinium
-DTSTAMP:20260225T120803Z
+UID:8109577fca6f0505ff7ae1b2c5c3425d070cb640@fp-smartplatinium
+DTSTAMP:20260225T122858Z
 DTSTART:20260225T190000Z
 DTEND:20260225T195500Z
 SUMMARY:Joga — JOGA HATHA
 LOCATION:Fitness Platinium Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/List?timeTableId=296
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/List?tim
- eTableId=296
+ /Classes/4/Calendar?timeTableId=296
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=296
+END:VEVENT
+BEGIN:VEVENT
+UID:54f9a277d18920ae519bf1265ea6f13f81c27035@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260226T070000Z
+DTEND:20260226T075500Z
+SUMMARY:Joga — Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22
+END:VEVENT
+BEGIN:VEVENT
+UID:70d0eafdbe50713fd4a4ee643d2874e277ab21c1@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260226T170000Z
+DTEND:20260226T175500Z
+SUMMARY:Joga — Joga
+LOCATION:Fitness Platinium Klimeckiego
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/6/Calendar?timeTableId=22
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
+ ?timeTableId=22
+END:VEVENT
+BEGIN:VEVENT
+UID:c52b27a8ad93a2b06a5576fc9bb323c79d87ec68@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260226T170000Z
+DTEND:20260226T180000Z
+SUMMARY:Kalistenika — Kalistenika
+LOCATION:SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36
+END:VEVENT
+BEGIN:VEVENT
+UID:3c3721d35d495d16e346dec4102997d7de23eb76@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260227T180000Z
+DTEND:20260227T185500Z
+SUMMARY:Joga — Joga
+LOCATION:SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/5/Calendar?timeTableId=22
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
+ ?timeTableId=22
+END:VEVENT
+BEGIN:VEVENT
+UID:b65ecf719b4c2ae7638c422482b76e99a7f6dbe7@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260301T090000Z
+DTEND:20260301T095500Z
+SUMMARY:Joga — Joga
+LOCATION:Fitness Platinium Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=22
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22
+END:VEVENT
+BEGIN:VEVENT
+UID:e9852c918b85da36d3a6ff38ed6c4503f0e160af@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260302T170000Z
+DTEND:20260302T175500Z
+SUMMARY:Joga — Joga
+LOCATION:SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22
+END:VEVENT
+BEGIN:VEVENT
+UID:ab4b7f3fe05d59dc9febfc532c2c957a8622a58e@fp-smartplatinium
+DTSTAMP:20260225T122858Z
+DTSTART:20260302T170000Z
+DTEND:20260302T180000Z
+SUMMARY:Kalistenika — Kalistenika
+LOCATION:SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36
 END:VEVENT
 END:VCALENDAR
