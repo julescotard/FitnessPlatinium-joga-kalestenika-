@@ -29,8 +29,10 @@
       "calisthenics"
     ]
   },
-  "timetable_force_category": {
-  "36": "calisthenics"
+ "forced_category_by_timetableId": {
+  "36": "calisthenics",
+  "22": "yoga",
+  "296": "yoga"
 },
   "availability_windows": {
     "mon": [
