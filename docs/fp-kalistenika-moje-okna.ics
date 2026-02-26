@@ -7,16 +7,4 @@ X-WR-CALNAME:FP: Kalistenika (moje okna)
 X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
-BEGIN:VEVENT
-UID:c52b27a8ad93a2b06a5576fc9bb323c79d87ec68@fp-smartplatinium
-DTSTAMP:20260225T191855Z
-DTSTART:20260226T170000Z
-DTEND:20260226T180000Z
-SUMMARY:Kalistenika — Kalistenika
-LOCATION:SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36
-END:VEVENT
 END:VCALENDAR

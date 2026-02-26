@@ -1,42 +1,2218 @@
 {
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "261",
+            "Name": "Agata Wójcik"
+          },
+          {
+            "Id": "268",
+            "Name": "Anna Juza"
+          },
+          {
+            "Id": "328",
+            "Name": "Joanna Sikora"
+          },
+          {
+            "Id": "329",
+            "Name": "Julia Styła"
+          },
+          {
+            "Id": "332",
+            "Name": "Katarzyna Barnaś"
+          },
+          {
+            "Id": "340",
+            "Name": "Krystian Ignatowicz"
+          },
+          {
+            "Id": "422",
+            "Name": "Robert Waszkiewicz"
+          },
+          {
+            "Id": "444",
+            "Name": "Emilia Furman"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "726",
+            "Name": "Natalia Kowalska"
+          },
+          {
+            "Id": "855",
+            "Name": "Ewelina Domagała"
+          },
+          {
+            "Id": "897",
+            "Name": "Aleksandra Jacek"
+          },
+          {
+            "Id": "1049",
+            "Name": "Dominika Sroka"
+          },
+          {
+            "Id": "1055",
+            "Name": "Viktoria Oshurkova"
+          },
+          {
+            "Id": "1083",
+            "Name": "Oleh Dakhovych"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "12",
+            "Name": "Indoor Cycling"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "63",
+            "Name": "Strefa Squash"
+          },
+          {
+            "Id": "41",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "42",
+            "Name": "Sala Indoor Cycling"
+          },
+          {
+            "Id": "7",
+            "Name": "Fitness Platinium Aleja Pokoju, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "42",
+            "Name": "ABT"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "279",
+            "Name": "FULL BODY WORKOUT"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "115",
+            "Name": "Indoor Cycling Interwał"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "117",
+            "Name": "Indoor Cycling Siła"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "116",
+            "Name": "Indoor Cycling Wytrzymałość"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "22",
+            "Name": "Joga"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "296",
+            "Name": "JOGA HATHA"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "378",
+            "Name": "LOWER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "104",
+            "Name": "Pilates/Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "416",
+            "Name": "SHAPE&TRX"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "170",
+            "Name": "Squash - Kort 1"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "171",
+            "Name": "Squash - Kort 2"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "112",
+            "Name": "TBC+Step"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "103",
+            "Name": "TRX/Kettlebells"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "421",
+            "Name": "🆕LES MILLS BODYPUMP HEAVY™"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "261",
+            "Name": "Agata Wójcik"
+          },
+          {
+            "Id": "268",
+            "Name": "Anna Juza"
+          },
+          {
+            "Id": "328",
+            "Name": "Joanna Sikora"
+          },
+          {
+            "Id": "329",
+            "Name": "Julia Styła"
+          },
+          {
+            "Id": "332",
+            "Name": "Katarzyna Barnaś"
+          },
+          {
+            "Id": "340",
+            "Name": "Krystian Ignatowicz"
+          },
+          {
+            "Id": "422",
+            "Name": "Robert Waszkiewicz"
+          },
+          {
+            "Id": "444",
+            "Name": "Emilia Furman"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "726",
+            "Name": "Natalia Kowalska"
+          },
+          {
+            "Id": "855",
+            "Name": "Ewelina Domagała"
+          },
+          {
+            "Id": "897",
+            "Name": "Aleksandra Jacek"
+          },
+          {
+            "Id": "1049",
+            "Name": "Dominika Sroka"
+          },
+          {
+            "Id": "1055",
+            "Name": "Viktoria Oshurkova"
+          },
+          {
+            "Id": "1083",
+            "Name": "Oleh Dakhovych"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "12",
+            "Name": "Indoor Cycling"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "63",
+            "Name": "Strefa Squash"
+          },
+          {
+            "Id": "41",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "42",
+            "Name": "Sala Indoor Cycling"
+          },
+          {
+            "Id": "7",
+            "Name": "Fitness Platinium Aleja Pokoju, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "42",
+            "Name": "ABT"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "279",
+            "Name": "FULL BODY WORKOUT"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "115",
+            "Name": "Indoor Cycling Interwał"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "117",
+            "Name": "Indoor Cycling Siła"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "116",
+            "Name": "Indoor Cycling Wytrzymałość"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "22",
+            "Name": "Joga"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "296",
+            "Name": "JOGA HATHA"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "378",
+            "Name": "LOWER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "104",
+            "Name": "Pilates/Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "416",
+            "Name": "SHAPE&TRX"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "170",
+            "Name": "Squash - Kort 1"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "171",
+            "Name": "Squash - Kort 2"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "112",
+            "Name": "TBC+Step"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "103",
+            "Name": "TRX/Kettlebells"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "421",
+            "Name": "🆕LES MILLS BODYPUMP HEAVY™"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "268",
+            "Name": "Anna Juza"
+          },
+          {
+            "Id": "297",
+            "Name": "Dominika Lenart"
+          },
+          {
+            "Id": "328",
+            "Name": "Joanna Sikora"
+          },
+          {
+            "Id": "332",
+            "Name": "Katarzyna Barnaś"
+          },
+          {
+            "Id": "350",
+            "Name": "Klaudia Matusik"
+          },
+          {
+            "Id": "374",
+            "Name": "Michał Dziwina"
+          },
+          {
+            "Id": "417",
+            "Name": "Paulina Witowska"
+          },
+          {
+            "Id": "421",
+            "Name": "Renata Mączyńska-czerwiec"
+          },
+          {
+            "Id": "429",
+            "Name": "Ula Kania"
+          },
+          {
+            "Id": "444",
+            "Name": "Emilia Furman"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "606",
+            "Name": "Monika Piórecka"
+          },
+          {
+            "Id": "840",
+            "Name": "Kamila Izdebska"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "43",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "4",
+            "Name": "Fitness Platinium Aleksandry, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "42",
+            "Name": "ABT"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "93",
+            "Name": "BODYCOMBAT Les Mills"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "340",
+            "Name": "Brazylijskie Pośladki"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "343",
+            "Name": "Fitness Siłowy"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "279",
+            "Name": "FULL BODY WORKOUT"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "378",
+            "Name": "LOWER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "316",
+            "Name": "Sensual Dance"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "103",
+            "Name": "TRX/Kettlebells"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "421",
+            "Name": "🆕LES MILLS BODYPUMP HEAVY™"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "261",
+            "Name": "Agata Wójcik"
+          },
+          {
+            "Id": "289",
+            "Name": "Barbara Adukowska"
+          },
+          {
+            "Id": "304",
+            "Name": "Ewa Pietrzyk"
+          },
+          {
+            "Id": "318",
+            "Name": "Joanna Harat"
+          },
+          {
+            "Id": "349",
+            "Name": "Kamil Maj"
+          },
+          {
+            "Id": "392",
+            "Name": "Maciej Wąsowski"
+          },
+          {
+            "Id": "447",
+            "Name": "Daria Zachariewicz"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "458",
+            "Name": "Paweł Wszołek"
+          },
+          {
+            "Id": "504",
+            "Name": "Natalia Wójcik"
+          },
+          {
+            "Id": "726",
+            "Name": "Natalia Kowalska"
+          },
+          {
+            "Id": "836",
+            "Name": "Agnieszka Szcześniak"
+          },
+          {
+            "Id": "897",
+            "Name": "Aleksandra Jacek"
+          },
+          {
+            "Id": "977",
+            "Name": "Mateusz Świercz"
+          },
+          {
+            "Id": "985",
+            "Name": "Jerzy Ćwiertka"
+          },
+          {
+            "Id": "1049",
+            "Name": "Dominika Sroka"
+          },
+          {
+            "Id": "1055",
+            "Name": "Viktoria Oshurkova"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "6",
+            "Name": "Event"
+          },
+          {
+            "Id": "16",
+            "Name": "Sztuki Walki"
+          },
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "5",
+            "Name": "Fitness Platinium Bratysławska, Kraków"
+          },
+          {
+            "Id": "44",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "45",
+            "Name": "Sala Shaper"
+          },
+          {
+            "Id": "46",
+            "Name": "Strefa SSW"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 16,
+            "Id": "128",
+            "Name": "Boks"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "126",
+            "Name": "Energy Jump"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "22",
+            "Name": "Joga"
+          },
+          {
+            "CategoryId": 16,
+            "Id": "38",
+            "Name": "Kickboxing"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "378",
+            "Name": "LOWER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "106",
+            "Name": "Shaper  Lower Body&ABS"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "127",
+            "Name": "Shaper Double Shot"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "107",
+            "Name": "Shaper Full Body&ABS"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "108",
+            "Name": "Shaper Pride"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "105",
+            "Name": "Shaper Upper Body&ABS"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 6,
+            "Id": "351",
+            "Name": "WALENTYNKOWY MARATON SHAPER"
+          },
+          {
+            "CategoryId": 16,
+            "Id": "380",
+            "Name": "ZAJĘCIA Z SAMOOBRONY"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "421",
+            "Name": "🆕LES MILLS BODYPUMP HEAVY™"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "261",
+            "Name": "Agata Wójcik"
+          },
+          {
+            "Id": "289",
+            "Name": "Barbara Adukowska"
+          },
+          {
+            "Id": "301",
+            "Name": "Dominika Wasilewska"
+          },
+          {
+            "Id": "310",
+            "Name": "Honorata Osip"
+          },
+          {
+            "Id": "313",
+            "Name": "Iwona Kot"
+          },
+          {
+            "Id": "349",
+            "Name": "Kamil Maj"
+          },
+          {
+            "Id": "417",
+            "Name": "Paulina Witowska"
+          },
+          {
+            "Id": "422",
+            "Name": "Robert Waszkiewicz"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "570",
+            "Name": "Joanna Pasternak"
+          },
+          {
+            "Id": "726",
+            "Name": "Natalia Kowalska"
+          },
+          {
+            "Id": "844",
+            "Name": "Robert KUBIK"
+          },
+          {
+            "Id": "926",
+            "Name": "Kacper Błaszczyk"
+          },
+          {
+            "Id": "927",
+            "Name": "Sebastian Palej"
+          },
+          {
+            "Id": "928",
+            "Name": "Kacper Kwieciński"
+          },
+          {
+            "Id": "933",
+            "Name": "Karina Piwowarska"
+          },
+          {
+            "Id": "1055",
+            "Name": "Viktoria Oshurkova"
+          },
+          {
+            "Id": "1075",
+            "Name": "Dustin Kulwicki"
+          },
+          {
+            "Id": "1083",
+            "Name": "Oleh Dakhovych"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "12",
+            "Name": "Indoor Cycling"
+          },
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "47",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "48",
+            "Name": "Sala Indoor Cycling"
+          },
+          {
+            "Id": "11",
+            "Name": "Fitness Platinium Bronowice, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "42",
+            "Name": "ABT"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "93",
+            "Name": "BODYCOMBAT Les Mills"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "126",
+            "Name": "Energy Jump"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "279",
+            "Name": "FULL BODY WORKOUT"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "91",
+            "Name": "Indoor Cycling"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "115",
+            "Name": "Indoor Cycling Interwał"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "117",
+            "Name": "Indoor Cycling Siła"
+          },
+          {
+            "CategoryId": 12,
+            "Id": "116",
+            "Name": "Indoor Cycling Wytrzymałość"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "22",
+            "Name": "Joga"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "378",
+            "Name": "LOWER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "11",
+            "Name": "Step"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "438",
+            "Name": "TRENING FUNKCJONALNY"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "316",
+            "Name": "Jakub Gajewski"
+          },
+          {
+            "Id": "329",
+            "Name": "Julia Styła"
+          },
+          {
+            "Id": "431",
+            "Name": "Wiktoria Galos"
+          },
+          {
+            "Id": "458",
+            "Name": "Paweł Wszołek"
+          },
+          {
+            "Id": "460",
+            "Name": "Mateusz Podsadniuk"
+          },
+          {
+            "Id": "923",
+            "Name": "Paweł Wszołek"
+          },
+          {
+            "Id": "1087",
+            "Name": "Marlena Nocek"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          },
+          {
+            "Id": "5",
+            "Name": "Endurance"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "10",
+            "Name": "Fitness Platinium Cystersów, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "386",
+            "Name": "ROW CISZA I SKUPIENIE"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "124",
+            "Name": "ROW Cross"
+          },
+          {
+            "CategoryId": 5,
+            "Id": "415",
+            "Name": "ROW SEASON PREP"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "123",
+            "Name": "ROW Siła"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "301",
+            "Name": "Dominika Wasilewska"
+          },
+          {
+            "Id": "304",
+            "Name": "Ewa Pietrzyk"
+          },
+          {
+            "Id": "318",
+            "Name": "Joanna Harat"
+          },
+          {
+            "Id": "332",
+            "Name": "Katarzyna Barnaś"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "840",
+            "Name": "Kamila Izdebska"
+          },
+          {
+            "Id": "897",
+            "Name": "Aleksandra Jacek"
+          },
+          {
+            "Id": "1055",
+            "Name": "Viktoria Oshurkova"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "9",
+            "Name": "Fitness Platinium Klimeckiego, Kraków"
+          },
+          {
+            "Id": "52",
+            "Name": "Sala Fitness"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "340",
+            "Name": "Brazylijskie Pośladki"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "279",
+            "Name": "FULL BODY WORKOUT"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "22",
+            "Name": "Joga"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "416",
+            "Name": "SHAPE&TRX"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "433",
+            "Name": "UPPER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "268",
+            "Name": "Anna Juza"
+          },
+          {
+            "Id": "294",
+            "Name": "Blanka Potępa"
+          },
+          {
+            "Id": "332",
+            "Name": "Katarzyna Barnaś"
+          },
+          {
+            "Id": "363",
+            "Name": "Katarzyna Wieczorek"
+          },
+          {
+            "Id": "366",
+            "Name": "Krzysztof Wróbel"
+          },
+          {
+            "Id": "374",
+            "Name": "Michał Dziwina"
+          },
+          {
+            "Id": "375",
+            "Name": "Mariusz Gawryś"
+          },
+          {
+            "Id": "421",
+            "Name": "Renata Mączyńska-czerwiec"
+          },
+          {
+            "Id": "425",
+            "Name": "Sylwia Świątek"
+          },
+          {
+            "Id": "430",
+            "Name": "Wojciech Czechowski"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "855",
+            "Name": "Ewelina Domagała"
+          },
+          {
+            "Id": "910",
+            "Name": "Bartłomiej Prugar"
+          },
+          {
+            "Id": "966",
+            "Name": "Aleksander Kamczyc"
+          },
+          {
+            "Id": "1060",
+            "Name": "Magdalena Bałuka"
+          },
+          {
+            "Id": "1176",
+            "Name": "Iwona Wójcik"
+          },
+          {
+            "Id": "1177",
+            "Name": "Renata Moskal"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "5",
+            "Name": "Endurance"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "13",
+            "Name": "Fitness Platinium Solvay, Kraków"
+          },
+          {
+            "Id": "56",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "59",
+            "Name": "Sala Butt Factory"
+          },
+          {
+            "Id": "61",
+            "Name": "Strefa OCR"
+          },
+          {
+            "Id": "57",
+            "Name": "Sala Shaper"
+          },
+          {
+            "Id": "58",
+            "Name": "Sala ROW"
+          },
+          {
+            "Id": "60",
+            "Name": "Strefa Tenisa Stołowego"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 11,
+            "Id": "42",
+            "Name": "ABT"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "119",
+            "Name": "ButtFactory Butt&ABS"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "120",
+            "Name": "ButtFactory Butt&Legs"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "118",
+            "Name": "ButtFactory Full Body Workout"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "219",
+            "Name": "Functional Training"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "154",
+            "Name": "GYM BOX"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "36",
+            "Name": "Kalistenika"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "300",
+            "Name": "MOBILITY STRONG"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "39",
+            "Name": "OCR"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "104",
+            "Name": "Pilates/Stretching"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "124",
+            "Name": "ROW Cross"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "123",
+            "Name": "ROW Siła"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "14",
+            "Name": "Senior Fitness"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "106",
+            "Name": "Shaper  Lower Body&ABS"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "127",
+            "Name": "Shaper Double Shot"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "107",
+            "Name": "Shaper Full Body&ABS"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "105",
+            "Name": "Shaper Upper Body&ABS"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 5,
+            "Id": "429",
+            "Name": "Tenis Stołowy"
+          },
+          {
+            "CategoryId": 5,
+            "Id": "155",
+            "Name": "Tenis Stołowy - Advanced"
+          },
+          {
+            "CategoryId": 5,
+            "Id": "121",
+            "Name": "Tenis Stołowy - Beginners"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "41",
+            "Name": "TRX"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "289",
+            "Name": "Barbara Adukowska"
+          },
+          {
+            "Id": "332",
+            "Name": "Katarzyna Barnaś"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "1055",
+            "Name": "Viktoria Oshurkova"
+          },
+          {
+            "Id": "1060",
+            "Name": "Magdalena Bałuka"
+          },
+          {
+            "Id": "1147",
+            "Name": "Marlena Siemieniak"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          },
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "8",
+            "Name": "Fitness Platinium The Legend, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "411",
+            "Name": "BE HEALTHY"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "92",
+            "Name": "BODYPUMP Les Mills"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "22",
+            "Name": "Joga"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21": {
-    "template": null,
-    "daily_samples": []
+    "filters": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/GetCalendarFilters",
+      "sample": {
+        "TrainerFilters": [
+          {
+            "Id": "268",
+            "Name": "Anna Juza"
+          },
+          {
+            "Id": "363",
+            "Name": "Katarzyna Wieczorek"
+          },
+          {
+            "Id": "374",
+            "Name": "Michał Dziwina"
+          },
+          {
+            "Id": "444",
+            "Name": "Emilia Furman"
+          },
+          {
+            "Id": "449",
+            "Name": "Platinium Team"
+          },
+          {
+            "Id": "693",
+            "Name": "Agnieszka Łasisz"
+          },
+          {
+            "Id": "836",
+            "Name": "Agnieszka Szcześniak"
+          },
+          {
+            "Id": "856",
+            "Name": "Katarzyna Kościółek"
+          },
+          {
+            "Id": "893",
+            "Name": "Katarzyna Kościółek"
+          }
+        ],
+        "CategoryFilters": [
+          {
+            "Id": "3",
+            "Name": "Body&Mind"
+          },
+          {
+            "Id": "8",
+            "Name": "Move&Choreography"
+          },
+          {
+            "Id": "11",
+            "Name": "Shape"
+          },
+          {
+            "Id": "7",
+            "Name": "Functional&Strength"
+          },
+          {
+            "Id": "4",
+            "Name": "Cardio&Shape"
+          },
+          {
+            "Id": "1",
+            "Name": "Zajęcia w ramach abonamentu"
+          }
+        ],
+        "ZoneFilters": [
+          {
+            "Id": "62",
+            "Name": "Sala Fitness"
+          },
+          {
+            "Id": "6",
+            "Name": "Fitness Platinium Zachodnia, Kraków"
+          }
+        ],
+        "TimeTableFilters": [
+          {
+            "CategoryId": 7,
+            "Id": "377",
+            "Name": "ABS & CORE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "42",
+            "Name": "ABT"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "412",
+            "Name": "BE ACTIVE"
+          },
+          {
+            "CategoryId": 11,
+            "Id": "102",
+            "Name": "Body Shape"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "370",
+            "Name": "Body Toning"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "279",
+            "Name": "FULL BODY WORKOUT"
+          },
+          {
+            "CategoryId": 1,
+            "Id": "346",
+            "Name": "INTRO"
+          },
+          {
+            "CategoryId": 4,
+            "Id": "378",
+            "Name": "LOWER BODY WORKOUT"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "19",
+            "Name": "Pilates"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "21",
+            "Name": "Stretching"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "65",
+            "Name": "Tabata"
+          },
+          {
+            "CategoryId": 7,
+            "Id": "103",
+            "Name": "TRX/Kettlebells"
+          },
+          {
+            "CategoryId": 3,
+            "Id": "23",
+            "Name": "Zdrowy Kręgosłup"
+          },
+          {
+            "CategoryId": 8,
+            "Id": "29",
+            "Name": "Zumba"
+          }
+        ],
+        "ActivityCategoryFilters": []
+      }
+    },
+    "daily_any": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/DailyClasses",
+      "sample": {
+        "CalendarData": [],
+        "PagerData": {
+          "Days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02"
+          ],
+          "NextDate": "2026-03-03",
+          "PreviousDate": "2026-02-21",
+          "Date": "2026-02-26",
+          "CanGoForward": true,
+          "CanGoBack": false,
+          "QueryStartDate": "2026-02-26",
+          "QueryEndDate": "2026-02-26"
+        }
+      }
+    },
+    "daily_with_data": null
   }
 }

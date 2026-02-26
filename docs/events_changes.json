@@ -1,5 +1,15 @@
 {
-  "date": "2026-02-25T20:18:55+01:00",
+  "date": "2026-02-26T20:20:50+01:00",
   "added": [],
-  "removed": []
+  "removed": [
+    "2026-02-25 19:00-19:55 | yoga | Fitness Platinium Pokoju | Joga — Joga",
+    "2026-02-25 20:00-20:55 | yoga | Fitness Platinium Pokoju | Joga — JOGA HATHA",
+    "2026-02-26 08:00-08:55 | yoga | Fitness Platinium Bratysławska | Joga — Joga",
+    "2026-02-26 18:00-18:55 | yoga | Fitness Platinium Klimeckiego | Joga — Joga",
+    "2026-02-26 18:00-19:00 | calisthenics | SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 | Kalistenika — Kalistenika",
+    "2026-02-27 19:00-19:55 | yoga | SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 | Joga — Joga",
+    "2026-03-01 10:00-10:55 | yoga | Fitness Platinium Pokoju | Joga — Joga",
+    "2026-03-02 18:00-18:55 | yoga | SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 | Joga — Joga",
+    "2026-03-02 18:00-19:00 | calisthenics | SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 | Kalistenika — Kalistenika"
+  ]
 }
