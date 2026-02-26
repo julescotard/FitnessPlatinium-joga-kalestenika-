@@ -681,7 +681,7 @@ def main() -> None:
                             uid=uid,
                             start_utc=_to_utc_from_local(start_local, tz),
                             end_utc=_to_utc_from_local(end_local, tz),
-                            trainer = (
+                                                                               trainer = (
     obj.get("TrainerName") or obj.get("trainerName") or
     obj.get("InstructorName") or obj.get("instructorName") or
     obj.get("Trainer") or obj.get("trainer") or ""
@@ -691,7 +691,7 @@ if isinstance(trainer, dict):
 if not isinstance(trainer, str):
     trainer = ""
 trainer = trainer.strip()
-                           start_hhmm = start_local.strftime("%H:%M")
+start_hhmm = start_local.strftime("%H:%M")
 kind = "Joga" if category == "yoga" else "Kalistenika"
 who = trainer if trainer else "bez trenera"
 title = f"{start_hhmm} {kind} | {club_name} | {who} | {name}",
