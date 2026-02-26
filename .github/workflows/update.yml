@@ -9,12 +9,11 @@ on:
       - "requirements.txt"
       - ".github/workflows/update.yml"
   schedule:
-    # Cel: ~07:15 w Polsce (Europe/Warsaw)
-    # Zima: 07:15 = 06:15 UTC
-    # Lato: 07:15 = 05:15 UTC
-    # Odpalamy 2x, a skrypt i tak ma guard "run_only_at_local_hour": 7
-    - cron: "15 5 * * 1"
-    - cron: "15 6 * * 1"
+    # Cel: ok. 07:15 czasu PL (Europe/Warsaw)
+    # Lato (CEST): 07:15 = 05:15 UTC
+    # Zima (CET):  07:15 = 06:15 UTC
+    - cron: "15 5 * * *"
+    - cron: "15 6 * * *"
 
 permissions:
   contents: write
@@ -24,8 +23,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      # Ręczne uruchomienie zawsze ma działać, harmonogram ma trzymać się godziny lokalnej (guard w skrypcie)
-      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+      # workflow_dispatch => "true", pozostałe => "false"
+      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' }}
 
     steps:
       - name: Checkout
@@ -79,13 +78,9 @@ jobs:
             const yogaClubs = new Set(sum.yoga_clubs || []);
             const calClubs  = new Set(sum.calisthenics_clubs || []);
 
-            // Nowy klub z jogą = dodany klub, który jest aktualnie w yoga_clubs
             const addedYogaClubs = (loc.added || []).filter(x => yogaClubs.has(x));
 
-            // Nowa kalistenika:
-            // (A) dodany klub, który jest w calisthenics_clubs
             const addedCalClubs = (loc.added || []).filter(x => calClubs.has(x));
-            // (B) nowe terminy, których opis zawiera "calisthenics"
             const addedCalEvents = (ev.added || []).filter(x => (x || '').toLowerCase().includes('calisthenics'));
 
             if (addedYogaClubs.length) {
