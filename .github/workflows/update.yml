@@ -2,8 +2,17 @@ name: Update FP (Joga/Kalistenika) ICS
 
 on:
   workflow_dispatch: {}
+  push:
+    paths:
+      - "scrape_fp.py"
+      - "config.json"
+      - "requirements.txt"
+      - ".github/workflows/update.yml"
   schedule:
-    # 07:15 w Polsce (DST-proof – odpalamy 2x w UTC, skrypt sam wybierze właściwą godzinę lokalną)
+    # Cel: ~07:15 w Polsce (Europe/Warsaw)
+    # Zima: 07:15 = 06:15 UTC
+    # Lato: 07:15 = 05:15 UTC
+    # Odpalamy 2x, a skrypt i tak ma guard "run_only_at_local_hour": 7
     - cron: "15 5 * * 1"
     - cron: "15 6 * * 1"
 
@@ -15,78 +24,109 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      # schedule ma trzymać się godziny 7 PL; ręczne uruchomienie ma działać zawsze
-      FORCE_RUN: ${{ github.event_name != 'schedule' && '1' || '0' }}
+      # Ręczne uruchomienie zawsze ma działać, harmonogram ma trzymać się godziny lokalnej (guard w skrypcie)
+      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
+
       - name: Run scraper
         run: |
           python scrape_fp.py --out docs
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add docs/*.ics docs/*.json docs/*.md docs/index.html || true
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Update FP timetable (auto)"
             git push
           fi
-      - name: Create Issue if something changed
+
+      - name: Create Issue if yoga/calisthenics changed
         uses: actions/github-script@v7
         with:
-         script: |
-  const fs = require('fs');
+          script: |
+            const fs = require('fs');
 
-  const read = (p)=>fs.existsSync(p)?JSON.parse(fs.readFileSync(p,'utf8')):null;
+            const read = (p) => fs.existsSync(p)
+              ? JSON.parse(fs.readFileSync(p, 'utf8'))
+              : null;
 
-  const sum = read('docs/availability_summary.json');
-  const loc = read('docs/changes.json');
-  const ev  = read('docs/events_changes.json');
+            const sum = read('docs/availability_summary.json');
+            const loc = read('docs/changes.json');
+            const ev  = read('docs/events_changes.json');
 
-  if (!sum || !loc || !ev) return;
+            if (!sum || !loc || !ev) return;
 
-  const yogaClubs = new Set(sum.yoga_clubs || []);
-  const calClubs  = new Set(sum.calisthenics_clubs || []);
+            const yogaClubs = new Set(sum.yoga_clubs || []);
+            const calClubs  = new Set(sum.calisthenics_clubs || []);
 
-  // Nowy klub z jogą = klub dodany w changes.json, który jest w aktualnej liście yoga_clubs
-  const addedYogaClubs = (loc.added || []).filter(x => yogaClubs.has(x));
+            // Nowy klub z jogą = dodany klub, który jest aktualnie w yoga_clubs
+            const addedYogaClubs = (loc.added || []).filter(x => yogaClubs.has(x));
 
-  // Nowa kalistenika:
-  // 1) nowy klub w kalistenice
-  const addedCalClubs = (loc.added || []).filter(x => calClubs.has(x));
-  // 2) nowe terminy, których opis zawiera "calisthenics" (z events_changes.json)
-  const addedCalEvents = (ev.added || []).filter(x => (x || '').toLowerCase().includes('calisthenics'));
+            // Nowa kalistenika:
+            // (A) dodany klub, który jest w calisthenics_clubs
+            const addedCalClubs = (loc.added || []).filter(x => calClubs.has(x));
+            // (B) nowe terminy, których opis zawiera "calisthenics"
+            const addedCalEvents = (ev.added || []).filter(x => (x || '').toLowerCase().includes('calisthenics'));
 
-  // ISSUE: nowy klub z jogą
-  if (addedYogaClubs.length) {
-    const title = `FP: nowy klub z jogą (${sum.generated_at})`;
-    const body =
-      `Dodane kluby (joga):\n` +
-      addedYogaClubs.map(x=>`- ${x}`).join('\n') +
-      `\n\nZobacz: docs/availability_summary.json + docs/changes.json`;
-    await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body});
-  }
+            if (addedYogaClubs.length) {
+              const title = `FP: nowy klub z jogą (${sum.generated_at})`;
+              const body =
+                `Dodane kluby (joga):\n` +
+                addedYogaClubs.map(x => `- ${x}`).join('\n') +
+                `\n\nSzczegóły: docs/availability_summary.json + docs/changes.json`;
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
 
-  // ISSUE: nowa kalistenika
-  if (addedCalClubs.length || addedCalEvents.length) {
-    const title = `FP: nowa kalistenika (${sum.generated_at})`;
-    let body = '';
-    if (addedCalClubs.length) {
-      body += `Dodane kluby (kalistenika):\n` + addedCalClubs.map(x=>`- ${x}`).join('\n') + '\n\n';
-    }
-    if (addedCalEvents.length) {
-      body += `Nowe terminy (kalistenika):\n` + addedCalEvents.slice(0,30).map(x=>`- ${x}`).join('\n') + '\n\n';
-      if (addedCalEvents.length > 30) body += `(+ ${addedCalEvents.length-30} więcej)\n\n`;
-    }
-    body += `Zobacz: docs/events_changes.json + docs/availability_summary.json`;
-    await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body});
-  }
+            if (addedCalClubs.length || addedCalEvents.length) {
+              const title = `FP: nowa kalistenika (${sum.generated_at})`;
+              let body = '';
+
+              if (addedCalClubs.length) {
+                body += `Dodane kluby (kalistenika):\n` +
+                        addedCalClubs.map(x => `- ${x}`).join('\n') +
+                        `\n\n`;
+              }
+
+              if (addedCalEvents.length) {
+                body += `Nowe terminy (kalistenika) – max 30:\n` +
+                        addedCalEvents.slice(0, 30).map(x => `- ${x}`).join('\n') +
+                        `\n\n`;
+                if (addedCalEvents.length > 30) {
+                  body += `(+ ${addedCalEvents.length - 30} więcej)\n\n`;
+                }
+              }
+
+              body += `Szczegóły: docs/events_changes.json + docs/availability_summary.json`;
+
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
