@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T21:00:20+01:00",
+  "generated_at": "2026-02-26T21:19:29+01:00",
   "days_ahead": 42,
   "event_counts": {
     "all": 0,
@@ -102,8 +102,8 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/List?timeTableId=22",
-      "blobs": 3,
-      "calls": 4,
+      "blobs": 2,
+      "calls": 3,
       "events_found": 0,
       "forced_category": "yoga"
     },
@@ -113,8 +113,8 @@
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21",
       "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/List?timeTableId=21",
-      "blobs": 3,
-      "calls": 3,
+      "blobs": 2,
+      "calls": 2,
       "events_found": 0,
       "forced_category": ""
     }
