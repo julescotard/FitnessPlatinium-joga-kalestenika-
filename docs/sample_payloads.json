@@ -1,42 +1,272 @@
 {
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   },
   "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21": {
-    "template": null,
-    "daily_samples": []
+    "weekly_template": {
+      "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/Classes/ClassCalendar/WeeklyClasses",
+      "method": "POST",
+      "has_post_data": true,
+      "headers_keys": [
+        "accept",
+        "content-type",
+        "referer",
+        "x-requested-with"
+      ]
+    },
+    "weekly_samples": [
+      {
+        "week_start": "2026-02-23",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-02",
+        "len": 2
+      },
+      {
+        "week_start": "2026-03-09",
+        "len": 2
+      }
+    ]
   }
 }

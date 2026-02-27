@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T15:40:36+01:00",
+  "generated_at": "2026-02-27T16:34:27+01:00",
   "days_ahead": 42,
   "event_counts": {
     "all": 6,
@@ -8,126 +8,126 @@
     "my_windows": 0
   },
   "clubs_seen": {
-    "Fitness Platinium Pokoju :: 22": {
+    "Fitness Platinium Aleja Pokoju :: 22": {
       "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22",
-      "blobs": 5,
       "calls": 42,
-      "events_found": 2,
-      "template_captured": false,
-      "template_method": null
+      "blobs": 10,
+      "events_found": 9,
+      "forced_category": "yoga",
+      "template_used": true
     },
-    "Fitness Platinium Pokoju :: 296": {
+    "Fitness Platinium Aleja Pokoju :: 296": {
       "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296",
-      "blobs": 3,
       "calls": 5,
-      "events_found": 2,
-      "template_captured": false,
-      "template_method": null
+      "blobs": 10,
+      "events_found": 9,
+      "forced_category": "yoga",
+      "template_used": true
     },
     "Fitness Platinium Aleksandry :: 21": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21",
-      "blobs": 2,
       "calls": 2,
+      "blobs": 9,
       "events_found": 0,
-      "template_captured": false,
-      "template_method": null
+      "forced_category": "",
+      "template_used": true
     },
     "Fitness Platinium Bratysławska :: 22": {
       "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22",
-      "blobs": 3,
       "calls": 3,
-      "events_found": 2,
-      "template_captured": false,
-      "template_method": null
+      "blobs": 10,
+      "events_found": 9,
+      "forced_category": "yoga",
+      "template_used": true
     },
-    "SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 :: 22": {
+    "Fitness Platinium Bronowice :: 22": {
       "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22",
-      "blobs": 3,
       "calls": 3,
-      "events_found": 2,
-      "template_captured": false,
-      "template_method": null
+      "blobs": 10,
+      "events_found": 9,
+      "forced_category": "yoga",
+      "template_used": true
     },
     "Fitness Platinium Cystersów :: 124": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124",
-      "blobs": 3,
       "calls": 3,
+      "blobs": 10,
       "events_found": 0,
-      "template_captured": false,
-      "template_method": null
+      "forced_category": "",
+      "template_used": true
     },
     "Fitness Platinium Klimeckiego :: 22": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22",
-      "blobs": 3,
-      "calls": 4,
+      "calls": 3,
+      "blobs": 9,
       "events_found": 0,
-      "template_captured": false,
-      "template_method": null
+      "forced_category": "yoga",
+      "template_used": true
     },
-    "SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 :: 36": {
+    "Fitness Platinium Solvay Park :: 36": {
       "yoga": false,
       "calisthenics": true,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36",
-      "blobs": 3,
       "calls": 3,
-      "events_found": 2,
-      "template_captured": false,
-      "template_method": null
+      "blobs": 10,
+      "events_found": 9,
+      "forced_category": "calisthenics",
+      "template_used": true
     },
-    "SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 :: 22": {
+    "Fitness Platinium The Legend :: 22": {
       "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22",
-      "blobs": 2,
       "calls": 2,
-      "events_found": 1,
-      "template_captured": false,
-      "template_method": null
+      "blobs": 9,
+      "events_found": 8,
+      "forced_category": "yoga",
+      "template_used": true
     },
     "Fitness Platinium Zachodnia :: 21": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21",
-      "blobs": 3,
       "calls": 3,
+      "blobs": 10,
       "events_found": 0,
-      "template_captured": false,
-      "template_method": null
+      "forced_category": "",
+      "template_used": true
     }
   },
   "yoga_clubs": [
+    "Fitness Platinium Aleja Pokoju :: 22",
+    "Fitness Platinium Aleja Pokoju :: 296",
     "Fitness Platinium Bratysławska :: 22",
-    "Fitness Platinium Pokoju :: 22",
-    "Fitness Platinium Pokoju :: 296",
-    "SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 :: 22",
-    "SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 :: 22"
+    "Fitness Platinium Bronowice :: 22",
+    "Fitness Platinium The Legend :: 22"
   ],
   "calisthenics_clubs": [
-    "SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 :: 36"
+    "Fitness Platinium Solvay Park :: 36"
   ],
   "errors": []
 }

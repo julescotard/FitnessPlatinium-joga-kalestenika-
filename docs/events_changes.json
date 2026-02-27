@@ -1,12 +1,17 @@
 {
-  "date": "2026-02-27T15:40:36+01:00",
+  "date": "2026-02-27T16:34:27+01:00",
   "added": [
+    "2026-02-27 19:00-19:55 | yoga | Fitness Platinium The Legend | 19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Joga",
+    "2026-03-01 10:00-10:55 | yoga | Fitness Platinium Aleja Pokoju | 10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | Joga",
+    "2026-03-02 18:00-18:55 | yoga | Fitness Platinium Bronowice | 18:00 Joga | Fitness Platinium Bronowice | Viktoria Oshurkova | Joga",
+    "2026-03-02 18:00-19:00 | calisthenics | Fitness Platinium Solvay Park | 18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wróbel | Kalistenika",
+    "2026-03-04 20:00-20:55 | yoga | Fitness Platinium Aleja Pokoju | 20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | JOGA HATHA"
+  ],
+  "removed": [
     "2026-02-27 19:00-19:55 | yoga | SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 | 19:00 Joga | SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 | Viktoria Oshurkova | Joga",
     "2026-03-01 10:00-10:55 | yoga | Fitness Platinium Pokoju | 10:00 Joga | Fitness Platinium Pokoju | Viktoria Oshurkova | Joga",
     "2026-03-02 18:00-18:55 | yoga | SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 | 18:00 Joga | SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 | Viktoria Oshurkova | Joga",
     "2026-03-02 18:00-19:00 | calisthenics | SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 | 18:00 Kalistenika | SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 | Krzysztof Wróbel | Kalistenika",
-    "2026-03-03 08:00-08:55 | yoga | Fitness Platinium Bratysławska | 08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova | Joga",
     "2026-03-04 20:00-20:55 | yoga | Fitness Platinium Pokoju | 20:00 Joga | Fitness Platinium Pokoju | Viktoria Oshurkova | JOGA HATHA"
-  ],
-  "removed": []
+  ]
 }

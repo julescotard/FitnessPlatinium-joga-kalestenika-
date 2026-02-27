@@ -8,46 +8,47 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:3c3721d35d495d16e346dec4102997d7de23eb76@fp-smartplatinium
-DTSTAMP:20260227T144036Z
+UID:f04f4ac60c6005eb33976f3adb11d091fd2d0184@fp-smartplatinium
+DTSTAMP:20260227T153427Z
 DTSTART:20260227T180000Z
 DTEND:20260227T185500Z
-SUMMARY:19:00 Joga | SmartPlatinium Classes URL: /Classes/5/Calendar?timeTa
- bleId=22 | Viktoria Oshurkova | Joga
-LOCATION:SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22
+SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
+ ga
+LOCATION:Fitness Platinium The Legend
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
  /Classes/5/Calendar?timeTableId=22
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
  ?timeTableId=22
 END:VEVENT
 BEGIN:VEVENT
-UID:b65ecf719b4c2ae7638c422482b76e99a7f6dbe7@fp-smartplatinium
-DTSTAMP:20260227T144036Z
+UID:870dd44ed99f6d54a087022f36c4030d273ed7cb@fp-smartplatinium
+DTSTAMP:20260227T153427Z
 DTSTART:20260301T090000Z
 DTEND:20260301T095500Z
-SUMMARY:10:00 Joga | Fitness Platinium Pokoju | Viktoria Oshurkova | Joga
-LOCATION:Fitness Platinium Pokoju
+SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ Joga
+LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
  /Classes/4/Calendar?timeTableId=22
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
  ?timeTableId=22
 END:VEVENT
 BEGIN:VEVENT
-UID:e9852c918b85da36d3a6ff38ed6c4503f0e160af@fp-smartplatinium
-DTSTAMP:20260227T144036Z
+UID:b52e2343c6b8ababe83f63f851ccfdf40f028ea6@fp-smartplatinium
+DTSTAMP:20260227T153427Z
 DTSTART:20260302T170000Z
 DTEND:20260302T175500Z
-SUMMARY:18:00 Joga | SmartPlatinium Classes URL: /Classes/8/Calendar?timeTa
- bleId=22 | Viktoria Oshurkova | Joga
-LOCATION:SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22
+SUMMARY:18:00 Joga | Fitness Platinium Bronowice | Viktoria Oshurkova | Jog
+ a
+LOCATION:Fitness Platinium Bronowice
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
  /Classes/8/Calendar?timeTableId=22
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
  ?timeTableId=22
 END:VEVENT
 BEGIN:VEVENT
-UID:6a058f7ee40a36930dc45651d2eed14de23f1b03@fp-smartplatinium
-DTSTAMP:20260227T144036Z
+UID:f25aaff61f6ff2140d89759432f049c67db28386@fp-smartplatinium
+DTSTAMP:20260227T153427Z
 DTSTART:20260303T070000Z
 DTEND:20260303T075500Z
 SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
@@ -59,13 +60,13 @@ URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
  ?timeTableId=22
 END:VEVENT
 BEGIN:VEVENT
-UID:602776e9950c5420773cb3bffc187b7fba0b894c@fp-smartplatinium
-DTSTAMP:20260227T144036Z
+UID:5694543c831400f9dafcc41bf1357c17da08d265@fp-smartplatinium
+DTSTAMP:20260227T153427Z
 DTSTART:20260304T190000Z
 DTEND:20260304T195500Z
-SUMMARY:20:00 Joga | Fitness Platinium Pokoju | Viktoria Oshurkova | JOGA H
- ATHA
-LOCATION:Fitness Platinium Pokoju
+SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ JOGA HATHA
+LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
  /Classes/4/Calendar?timeTableId=296
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar

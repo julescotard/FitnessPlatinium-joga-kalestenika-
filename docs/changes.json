@@ -1,12 +1,17 @@
 {
-  "date": "2026-02-27T15:40:36+01:00",
+  "date": "2026-02-27T16:34:27+01:00",
   "added": [
-    "Fitness Platinium Bratysławska :: 22",
+    "Fitness Platinium Aleja Pokoju :: 22",
+    "Fitness Platinium Aleja Pokoju :: 296",
+    "Fitness Platinium Bronowice :: 22",
+    "Fitness Platinium Solvay Park :: 36",
+    "Fitness Platinium The Legend :: 22"
+  ],
+  "removed": [
     "Fitness Platinium Pokoju :: 22",
     "Fitness Platinium Pokoju :: 296",
     "SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 :: 36",
     "SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 :: 22",
     "SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 :: 22"
-  ],
-  "removed": []
+  ]
 }
