@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Warsaw",
-  "days_ahead": 42,
+  "days_ahead": 8,
   "run_only_at_local_hour": 7,
   "club_calendars": [
     "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22",
