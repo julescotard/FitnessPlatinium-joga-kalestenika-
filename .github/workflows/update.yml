@@ -9,8 +9,10 @@ on:
       - "requirements.txt"
       - ".github/workflows/update.yml"
   schedule:
-    # Cel: ~07:15 czasu PL (Europe/Warsaw)
-    # Uruchamiamy 2x (lato/zima), a skrypt ma guard run_only_at_local_hour=7
+    # Cel: ok. 07:15 czasu PL (Europe/Warsaw)
+    # Lato (CEST): 07:15 = 05:15 UTC
+    # Zima (CET):  07:15 = 06:15 UTC
+    # Odpalamy 2x, a skrypt ma guard run_only_at_local_hour=7
     - cron: "15 5 * * *"
     - cron: "15 6 * * *"
 
@@ -22,7 +24,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+      # workflow_dispatch => "true", pozostałe => "false"
+      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' }}
 
     steps:
       - name: Checkout
@@ -77,7 +80,8 @@ jobs:
             const calClubs  = new Set(sum.calisthenics_clubs || []);
 
             const addedYogaClubs = (loc.added || []).filter(x => yogaClubs.has(x));
-            const addedCalClubs  = (loc.added || []).filter(x => calClubs.has(x));
+
+            const addedCalClubs = (loc.added || []).filter(x => calClubs.has(x));
             const addedCalEvents = (ev.added || []).filter(x => (x || '').toLowerCase().includes('calisthenics'));
 
             if (addedYogaClubs.length) {
@@ -86,12 +90,7 @@ jobs:
                 `Dodane kluby (joga):\n` +
                 addedYogaClubs.map(x => `- ${x}`).join('\n') +
                 `\n\nSzczegóły: docs/availability_summary.json + docs/changes.json`;
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title,
-                body
-              });
+              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
             }
 
             if (addedCalClubs.length || addedCalEvents.length) {
@@ -113,10 +112,5 @@ jobs:
 
               body += `Szczegóły: docs/events_changes.json + docs/availability_summary.json`;
 
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title,
-                body
-              });
+              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
             }
