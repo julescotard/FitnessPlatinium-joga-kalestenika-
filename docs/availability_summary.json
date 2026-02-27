@@ -1,125 +1,133 @@
 {
-  "generated_at": "2026-02-26T21:19:29+01:00",
+  "generated_at": "2026-02-27T15:40:36+01:00",
   "days_ahead": 42,
   "event_counts": {
-    "all": 0,
-    "yoga": 0,
-    "calisthenics": 0,
+    "all": 6,
+    "yoga": 5,
+    "calisthenics": 1,
     "my_windows": 0
   },
   "clubs_seen": {
     "Fitness Platinium Pokoju :: 22": {
-      "yoga": false,
+      "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/List?timeTableId=22",
       "blobs": 5,
-      "calls": 38,
-      "events_found": 0,
-      "forced_category": "yoga"
+      "calls": 42,
+      "events_found": 2,
+      "template_captured": false,
+      "template_method": null
     },
     "Fitness Platinium Pokoju :: 296": {
-      "yoga": false,
+      "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/List?timeTableId=296",
       "blobs": 3,
-      "calls": 3,
-      "events_found": 0,
-      "forced_category": "yoga"
+      "calls": 5,
+      "events_found": 2,
+      "template_captured": false,
+      "template_method": null
     },
     "Fitness Platinium Aleksandry :: 21": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/List?timeTableId=21",
-      "blobs": 3,
-      "calls": 3,
+      "blobs": 2,
+      "calls": 2,
       "events_found": 0,
-      "forced_category": ""
+      "template_captured": false,
+      "template_method": null
     },
     "Fitness Platinium Bratysławska :: 22": {
-      "yoga": false,
+      "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/List?timeTableId=22",
       "blobs": 3,
       "calls": 3,
-      "events_found": 0,
-      "forced_category": "yoga"
+      "events_found": 2,
+      "template_captured": false,
+      "template_method": null
     },
     "SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 :: 22": {
-      "yoga": false,
+      "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/List?timeTableId=22",
       "blobs": 3,
-      "calls": 4,
-      "events_found": 0,
-      "forced_category": "yoga"
+      "calls": 3,
+      "events_found": 2,
+      "template_captured": false,
+      "template_method": null
     },
     "Fitness Platinium Cystersów :: 124": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/Calendar?timeTableId=124",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/7/List?timeTableId=124",
-      "blobs": 2,
-      "calls": 2,
+      "blobs": 3,
+      "calls": 3,
       "events_found": 0,
-      "forced_category": ""
+      "template_captured": false,
+      "template_method": null
     },
     "Fitness Platinium Klimeckiego :: 22": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/List?timeTableId=22",
-      "blobs": 2,
-      "calls": 2,
+      "blobs": 3,
+      "calls": 4,
       "events_found": 0,
-      "forced_category": "yoga"
+      "template_captured": false,
+      "template_method": null
     },
     "SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 :: 36": {
       "yoga": false,
-      "calisthenics": false,
+      "calisthenics": true,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/List?timeTableId=36",
       "blobs": 3,
       "calls": 3,
-      "events_found": 0,
-      "forced_category": "calisthenics"
+      "events_found": 2,
+      "template_captured": false,
+      "template_method": null
     },
     "SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 :: 22": {
-      "yoga": false,
+      "yoga": true,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/List?timeTableId=22",
       "blobs": 2,
-      "calls": 3,
-      "events_found": 0,
-      "forced_category": "yoga"
+      "calls": 2,
+      "events_found": 1,
+      "template_captured": false,
+      "template_method": null
     },
     "Fitness Platinium Zachodnia :: 21": {
       "yoga": false,
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21",
-      "list_url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/List?timeTableId=21",
-      "blobs": 2,
-      "calls": 2,
+      "blobs": 3,
+      "calls": 3,
       "events_found": 0,
-      "forced_category": ""
+      "template_captured": false,
+      "template_method": null
     }
   },
-  "yoga_clubs": [],
-  "calisthenics_clubs": [],
+  "yoga_clubs": [
+    "Fitness Platinium Bratysławska :: 22",
+    "Fitness Platinium Pokoju :: 22",
+    "Fitness Platinium Pokoju :: 296",
+    "SmartPlatinium Classes URL: /Classes/5/Calendar?timeTableId=22 :: 22",
+    "SmartPlatinium Classes URL: /Classes/8/Calendar?timeTableId=22 :: 22"
+  ],
+  "calisthenics_clubs": [
+    "SmartPlatinium Classes URL: /Classes/10/Calendar?timeTableId=36 :: 36"
+  ],
   "errors": []
 }
