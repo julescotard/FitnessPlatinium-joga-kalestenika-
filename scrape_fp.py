@@ -386,38 +386,50 @@ def _try_parse_json_text(txt: str) -> Optional[Any]:
     return obj
 
 
+DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def _shift_dates_any(payload: Any, start_d: date, end_excl: date) -> Any:
+    def walk(x: Any, key_hint: str = "") -> Any:
+        if isinstance(x, dict):
+            return {k: walk(v, str(k).lower()) for k, v in x.items()}
+        if isinstance(x, list):
+            return [walk(v, key_hint) for v in x]
+        if isinstance(x, str):
+            if not DATE_RE.search(x):
+                return x
+            # "to/end" should be exclusive end
+            if any(h in key_hint for h in ("to", "end")):
+                return DATE_RE.sub(end_excl.isoformat(), x, count=1)
+            return DATE_RE.sub(start_d.isoformat(), x, count=1)
+        return x
+    return walk(payload)
+
+
+def _shift_dates_in_post_data(post_data: str, start_d: date, end_excl: date) -> str:
+    # JSON?
+    t = (post_data or "").strip()
+    if not t:
+        return t
+    if t.startswith("{") or t.startswith("["):
+        try:
+            obj = json.loads(t)
+            obj2 = _shift_dates_any(obj, start_d, end_excl)
+            return json.dumps(obj2, ensure_ascii=False)
+        except Exception:
+            pass
+    # fallback: raw string
+    out = DATE_RE.sub(start_d.isoformat(), t, count=1)
+    # best-effort replace second date with end_excl if present
+    if DATE_RE.search(out):
+        out = DATE_RE.sub(end_excl.isoformat(), out, count=1)
+    return out
+
+
 def _event_key(ev: Event, tz: ZoneInfo) -> str:
     st = ev.start_utc.astimezone(tz).strftime("%Y-%m-%d %H:%M")
     en = ev.end_utc.astimezone(tz).strftime("%H:%M")
     return f"{st}-{en} | {ev.category} | {ev.location} | {ev.title}"
-
-
-DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
-
-
-def _shift_dates_in_payload(payload: Any, week_start: date, week_end: date) -> Any:
-    """Try to adjust any ISO dates in payload; prefer keys with from/start/to/end/date."""
-    def walk(x: Any, key_hint: str = "") -> Any:
-        if isinstance(x, dict):
-            out = {}
-            for k, v in x.items():
-                out[k] = walk(v, str(k).lower())
-            return out
-        if isinstance(x, list):
-            return [walk(v, key_hint) for v in x]
-        if isinstance(x, str):
-            m = DATE_RE.search(x)
-            if not m:
-                return x
-            # replace the first date occurrence
-            if any(h in key_hint for h in ("to", "end")):
-                return DATE_RE.sub(week_end.isoformat(), x, count=1)
-            if any(h in key_hint for h in ("from", "start", "date")):
-                return DATE_RE.sub(week_start.isoformat(), x, count=1)
-            # fallback: set to week_start
-            return DATE_RE.sub(week_start.isoformat(), x, count=1)
-        return x
-    return walk(payload)
 
 
 def main() -> None:
@@ -439,7 +451,6 @@ def main() -> None:
 
     os.makedirs(args.out, exist_ok=True)
 
-    # previous summary for safeguard
     prev_summary = {}
     prev_summary_path = os.path.join(args.out, "availability_summary.json")
     if os.path.exists(prev_summary_path):
@@ -455,9 +466,10 @@ def main() -> None:
             print(f"[SKIP] Local time is {now_local.isoformat(timespec='minutes')} (want hour={only_hour}).")
             return
 
-    days_ahead = int(args.days or cfg.get("days_ahead", 42))
+    days_ahead = int(args.days or cfg.get("days_ahead", 8))  # możesz zmienić w config.json
     windows = _build_windows(cfg)
     keywords = {k: [_norm(x) for x in v] for k, v in (cfg.get("keywords", {}) or {}).items()}
+    hints = cfg.get("club_name_hints", []) or []
 
     prev_event_keys: Set[str] = set()
     prev_events_path = os.path.join(args.out, "events_index.json")
@@ -484,19 +496,17 @@ def main() -> None:
         context = browser.new_context(locale="pl-PL", timezone_id=str(tz.key))
         page = context.new_page()
 
-        # Map clubId -> clubName from API (fixes "krzaki")
+        # Try to map club IDs to names (fixes "SmartPlatinium Classes URL...")
         club_id_to_name: Dict[str, str] = {}
         try:
             r = context.request.get("https://smartplatinium.perfectgym.pl/ClientPortal2/Clubs/GetAvailableClassesClubs")
             if r.ok:
                 data = r.json()
-                # try common shapes
+                items = []
                 if isinstance(data, list):
                     items = data
                 elif isinstance(data, dict):
                     items = data.get("Clubs") or data.get("clubs") or data.get("Data") or data.get("data") or []
-                else:
-                    items = []
                 for it in items:
                     if isinstance(it, dict):
                         cid = it.get("Id") or it.get("id") or it.get("ClubId") or it.get("clubId")
@@ -516,22 +526,26 @@ def main() -> None:
             m_club = re.search(r"/#/Classes/(\d+)/Calendar", cal_url)
             club_id = m_club.group(1) if m_club else "?"
             club_name = club_id_to_name.get(club_id, "").strip()
+
+            # fallback: hints from page text
+            club_fallback = f"SmartPlatinium Classes URL: /Classes/{club_id}/Calendar?timeTableId={tt_id}"
             if club_name:
                 if not club_name.lower().startswith("fitness platinium"):
                     club_name = f"Fitness Platinium {club_name}"
             else:
-                club_name = f"SmartPlatinium Classes URL: /Classes/{club_id}/Calendar?timeTableId={tt_id}"
+                club_name = club_fallback
 
-            captured_blobs: List[Any] = []
             calls: List[Dict[str, object]] = []
-            weekly_template: Dict[str, Any] = {}
-            sample_payloads[cal_url] = {"weekly_template": None, "weekly_samples": []}
+            captured_blobs: List[Any] = []
+            template: Dict[str, Any] = {}
+
+            sample_payloads[cal_url] = {"weekly_template": None, "weeks_fetched": []}
 
             def on_request(req):
-                nonlocal weekly_template
+                nonlocal template
                 try:
-                    if "Classes/ClassCalendar/WeeklyClasses" in req.url and not weekly_template:
-                        weekly_template = {
+                    if "Classes/ClassCalendar/WeeklyClasses" in req.url and not template:
+                        template = {
                             "url": req.url,
                             "method": req.method,
                             "headers": {k: v for k, v in req.headers.items() if k.lower() in (
@@ -546,7 +560,7 @@ def main() -> None:
                 try:
                     ct = (resp.headers.get("content-type", "") or "").lower()
                     calls.append({"url": resp.url, "status": resp.status, "content_type": ct[:80]})
-                    if "Classes/ClassCalendar/WeeklyClasses" not in resp.url and "GetCalendarFilters" not in resp.url:
+                    if "Classes/ClassCalendar/WeeklyClasses" not in resp.url:
                         return
                     obj = None
                     try:
@@ -560,9 +574,8 @@ def main() -> None:
                             txt = None
                         if txt:
                             obj = _try_parse_json_text(txt)
-                    if obj is None:
-                        return
-                    captured_blobs.append(obj)
+                    if obj is not None:
+                        captured_blobs.append(obj)
                 except Exception:
                     pass
 
@@ -570,46 +583,54 @@ def main() -> None:
             page.on("response", on_response)
 
             try:
-                page.goto(cal_url, wait_until="domcontentloaded", timeout=60000)
-                page.wait_for_timeout(2500)
+                # Force a stable "start date" by adding date=YYYY-MM-DD if not present
+                start_d = start_cutoff.date()
+                if "date=" not in cal_url:
+                    joiner = "&" if "?" in cal_url else "?"
+                    cal_url2 = f"{cal_url}{joiner}date={start_d.isoformat()}"
+                else:
+                    cal_url2 = cal_url
 
-                # light scroll to trigger initial requests
-                for _ in range(8):
-                    page.mouse.wheel(0, 1800)
+                page.goto(cal_url2, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(4000)
+
+                # tiny interactions (sometimes trigger XHR)
+                for _ in range(3):
+                    page.mouse.wheel(0, 1200)
                     page.wait_for_timeout(300)
 
-                # If we captured a WeeklyClasses template, try to fetch future weeks up to days_ahead
-                template_used = False
-                if weekly_template.get("url"):
-                    template_used = True
-                    payload = None
-                    if weekly_template.get("post_data"):
-                        try:
-                            payload = json.loads(weekly_template["post_data"])
-                        except Exception:
-                            payload = None
+                page.wait_for_timeout(2500)
 
-                    # iterate week starts
-                    d0 = start_cutoff.date()
-                    # align to Monday
-                    week_start = d0 - timedelta(days=d0.weekday())
-                    while week_start <= end_cutoff.date():
-                        week_end = week_start + timedelta(days=6)
-                        if payload is not None:
-                            p2 = _shift_dates_in_payload(copy.deepcopy(payload), week_start, week_end)
-                            rr = context.request.fetch(
-                                weekly_template["url"],
-                                method=weekly_template.get("method", "POST"),
-                                headers=weekly_template.get("headers", {}),
-                                data=json.dumps(p2),
-                            )
-                        else:
-                            # If no JSON body, just hit the same endpoint (may still return current week)
-                            rr = context.request.fetch(
-                                weekly_template["url"],
-                                method=weekly_template.get("method", "GET"),
-                                headers=weekly_template.get("headers", {}),
-                            )
+                # if no club name from API, try hint scan from DOM
+                if club_name == club_fallback:
+                    try:
+                        text = page.inner_text("body")
+                        for h in hints:
+                            if h in text:
+                                club_name = f"Fitness Platinium {h}"
+                                break
+                    except Exception:
+                        pass
+
+                # If we captured WeeklyClasses template, actively fetch more weeks up to days_ahead
+                template_used = False
+                if template.get("url"):
+                    template_used = True
+                    # prepare weeks start: 0, 7, 14...
+                    week = 0
+                    while True:
+                        w_start = start_d + timedelta(days=7 * week)
+                        if datetime.combine(w_start, time(0, 0)).replace(tzinfo=tz) >= end_cutoff:
+                            break
+                        w_end_excl = w_start + timedelta(days=7)  # IMPORTANT: exclusive end
+                        post_data = template.get("post_data", "")
+                        shifted = _shift_dates_in_post_data(post_data, w_start, w_end_excl)
+                        rr = context.request.fetch(
+                            template["url"],
+                            method=template.get("method", "POST"),
+                            headers=template.get("headers", {}),
+                            data=shifted if shifted else None,
+                        )
                         if rr.ok:
                             try:
                                 obj = rr.json()
@@ -617,17 +638,16 @@ def main() -> None:
                                 obj = _try_parse_json_text(rr.text())
                             if obj is not None:
                                 captured_blobs.append(obj)
-                                if len(sample_payloads[cal_url]["weekly_samples"]) < 3:
-                                    sample_payloads[cal_url]["weekly_samples"].append(
-                                        {"week_start": week_start.isoformat(), "len": (len(obj) if isinstance(obj, list) else len(obj.keys()) if isinstance(obj, dict) else None)}
-                                    )
-                        week_start = week_start + timedelta(days=7)
+                                sample_payloads[cal_url]["weeks_fetched"].append({"week_start": w_start.isoformat(), "ok": True})
+                        else:
+                            sample_payloads[cal_url]["weeks_fetched"].append({"week_start": w_start.isoformat(), "ok": False, "status": rr.status})
+                        week += 1
 
                     sample_payloads[cal_url]["weekly_template"] = {
-                        "url": weekly_template.get("url"),
-                        "method": weekly_template.get("method"),
-                        "has_post_data": bool(weekly_template.get("post_data")),
-                        "headers_keys": sorted(list((weekly_template.get("headers") or {}).keys())),
+                        "url": template.get("url"),
+                        "method": template.get("method"),
+                        "has_post_data": bool(template.get("post_data")),
+                        "headers_keys": sorted(list((template.get("headers") or {}).keys())),
                     }
 
                 yoga_any = False
@@ -662,6 +682,7 @@ def main() -> None:
                         if not (start_cutoff <= start_local < end_cutoff):
                             continue
 
+                        # classify
                         category = None
                         if forced:
                             category = forced
@@ -693,8 +714,8 @@ def main() -> None:
                             start_utc=_to_utc_from_local(start_local, tz),
                             end_utc=_to_utc_from_local(end_local, tz),
                             title=title,
-                            location=f"{club_name}",
-                            source_url=cal_url,
+                            location=club_name,
+                            source_url=cal_url2,
                             category=category,
                         ))
                         events_here += 1
@@ -710,7 +731,7 @@ def main() -> None:
                     "forced_category": forced or "",
                     "template_used": bool(template_used),
                 }
-                debug_calls[cal_url] = calls[:120]
+                debug_calls[cal_url] = calls[:200]
 
             except PlaywrightTimeoutError:
                 errors.append(f"TIMEOUT: {cal_url}")
@@ -798,6 +819,11 @@ def main() -> None:
             f"- terminy: all={len(all_events)}, yoga={len(yoga_events)}, calisthenics={len(cal_events)}, moje_okna={len(filtered_events)}\n"
         )
 
+    base_url = cfg.get("public_base_url", "") or ""  # opcjonalnie w config.json
+    yoga_url = "fp-yoga.ics"
+    kal_url = "fp-kalistenika.ics"
+    both_url = "fp-yoga-kalistenika.ics"
+
     index_html = f"""<!doctype html>
 <html lang="pl">
 <head>
@@ -814,7 +840,7 @@ def main() -> None:
   <p>Wygenerowano: <strong>{now_iso}</strong></p>
   <p>Terminy: <code>all={len(all_events)} | yoga={len(yoga_events)} | calisthenics={len(cal_events)} | moje_okna={len(filtered_events)}</code></p>
 
-  <h2>Subskrypcje</h2>
+  <h2>Subskrypcje (kliknij na iPhone)</h2>
   <ul>
     <li><a href="fp-yoga-kalistenika.ics">Joga+Kalistenika (wszystko)</a></li>
     <li><a href="fp-yoga-kalistenika-moje-okna.ics">Joga+Kalistenika (moje okna)</a></li>
@@ -823,6 +849,10 @@ def main() -> None:
     <li><a href="fp-yoga-moje-okna.ics">Joga (moje okna)</a></li>
     <li><a href="fp-kalistenika-moje-okna.ics">Kalistenika (moje okna)</a></li>
   </ul>
+
+  <h3>Wklejanie ręczne w iOS (musi być pełny link do .ics)</h3>
+  <p>Przykład (https): <code>{base_url + yoga_url if base_url else '(uzupełnij public_base_url w config.json)'}</code></p>
+  <p>Przykład (webcal): <code>{('webcal://' + base_url.replace('https://','').replace('http://','') + yoga_url) if base_url else '(jw.)'}</code></p>
 
   <h2>Diagnostyka</h2>
   <ul>
