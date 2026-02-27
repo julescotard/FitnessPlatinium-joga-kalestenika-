@@ -24,7 +24,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      # workflow_dispatch => "true", pozostałe => "false"
       FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' }}
 
     steps:
