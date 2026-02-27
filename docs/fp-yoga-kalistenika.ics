@@ -9,80 +9,561 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:f04f4ac60c6005eb33976f3adb11d091fd2d0184@fp-smartplatinium
-DTSTAMP:20260227T153427Z
+DTSTAMP:20260227T161631Z
 DTSTART:20260227T180000Z
 DTEND:20260227T185500Z
 SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
  ga
 LOCATION:Fitness Platinium The Legend
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/5/Calendar?timeTableId=22
+ /Classes/5/Calendar?timeTableId=22&date=2026-02-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
- ?timeTableId=22
+ ?timeTableId=22&date=2026-02-27
 END:VEVENT
 BEGIN:VEVENT
 UID:870dd44ed99f6d54a087022f36c4030d273ed7cb@fp-smartplatinium
-DTSTAMP:20260227T153427Z
+DTSTAMP:20260227T161631Z
 DTSTART:20260301T090000Z
 DTEND:20260301T095500Z
 SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  Joga
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=22
+ /Classes/4/Calendar?timeTableId=22&date=2026-02-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=22
+ ?timeTableId=22&date=2026-02-27
 END:VEVENT
 BEGIN:VEVENT
 UID:b52e2343c6b8ababe83f63f851ccfdf40f028ea6@fp-smartplatinium
-DTSTAMP:20260227T153427Z
+DTSTAMP:20260227T161631Z
 DTSTART:20260302T170000Z
 DTEND:20260302T175500Z
 SUMMARY:18:00 Joga | Fitness Platinium Bronowice | Viktoria Oshurkova | Jog
  a
 LOCATION:Fitness Platinium Bronowice
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/8/Calendar?timeTableId=22
+ /Classes/8/Calendar?timeTableId=22&date=2026-02-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
- ?timeTableId=22
+ ?timeTableId=22&date=2026-02-27
 END:VEVENT
 BEGIN:VEVENT
 UID:23f3f50eea3c05babc26904d1db0f107102a4c55@fp-smartplatinium
-DTSTAMP:20260227T153427Z
+DTSTAMP:20260227T161631Z
 DTSTART:20260302T170000Z
 DTEND:20260302T180000Z
 SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
  el | Kalistenika
 LOCATION:Fitness Platinium Solvay Park
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36
+ r?timeTableId=36&date=2026-02-27
 END:VEVENT
 BEGIN:VEVENT
 UID:f25aaff61f6ff2140d89759432f049c67db28386@fp-smartplatinium
-DTSTAMP:20260227T153427Z
+DTSTAMP:20260227T161631Z
 DTSTART:20260303T070000Z
 DTEND:20260303T075500Z
 SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
   Joga
 LOCATION:Fitness Platinium Bratysławska
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/2/Calendar?timeTableId=22
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
- ?timeTableId=22
+ ?timeTableId=22&date=2026-02-27
 END:VEVENT
 BEGIN:VEVENT
 UID:5694543c831400f9dafcc41bf1357c17da08d265@fp-smartplatinium
-DTSTAMP:20260227T153427Z
+DTSTAMP:20260227T161631Z
 DTSTART:20260304T190000Z
 DTEND:20260304T195500Z
 SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  JOGA HATHA
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296
+ /Classes/4/Calendar?timeTableId=296&date=2026-02-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296
+ ?timeTableId=296&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:00c39d8b65397dcc23c2a9fce958e438dcaae811@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260305T070000Z
+DTEND:20260305T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:4150d5c556fb0f5d3e75d7e96b8c52c318b977ce@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260305T170000Z
+DTEND:20260305T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
+ oga
+LOCATION:Fitness Platinium Klimeckiego
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/6/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:ce74a172288ff070c109d46a2eaea04b694054ee@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260305T170000Z
+DTEND:20260305T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:fdefdb6698dbb3762a8df4625a8464d2cc0ba868@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260306T180000Z
+DTEND:20260306T185500Z
+SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
+ ga
+LOCATION:Fitness Platinium The Legend
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/5/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:28c3b0fa2ca141fa8784086feec5a1c0b2b23f96@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260308T090000Z
+DTEND:20260308T095500Z
+SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ Joga
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:7f6e8e04ec718eff61219aaa77692c9225c6884a@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260309T170000Z
+DTEND:20260309T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd1ae512ce0fd42a4d8be6ac295428e30a7c906@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260310T070000Z
+DTEND:20260310T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:59ad676622a08efbb1a69acca8dc6eaae95bf0c4@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260311T180000Z
+DTEND:20260311T185500Z
+SUMMARY:19:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ Joga
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:2a160db883654ecb2fcf55a857bb1a5d1f6259f3@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260311T190000Z
+DTEND:20260311T195500Z
+SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ JOGA HATHA
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=296&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=296&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:77f15c553cba4bdad32501e955d8a3972cb96253@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260312T070000Z
+DTEND:20260312T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:d9c32956c984f728a28c4ebf0eff2ec868b88bba@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260312T170000Z
+DTEND:20260312T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
+ oga
+LOCATION:Fitness Platinium Klimeckiego
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/6/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:0815267ed05aa111ea4220d214435da6a2d6fae1@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260312T170000Z
+DTEND:20260312T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:25f3a16493fccf1836a3d4c4e93508e8d0f54d90@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260313T180000Z
+DTEND:20260313T185500Z
+SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
+ ga
+LOCATION:Fitness Platinium The Legend
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/5/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:7b4f7dc13babb2996dd9e4261a1f859017f83128@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260315T090000Z
+DTEND:20260315T095500Z
+SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ Joga
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:f47c5fba04951b3a171a21ff56916087cdcb8f6d@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260316T170000Z
+DTEND:20260316T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:fa31b0d5bd68492629f6a9c70af0d49d8f2e318b@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260317T070000Z
+DTEND:20260317T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:7340c12aac512fdcd55897c668e332a11a0607c8@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260318T190000Z
+DTEND:20260318T195500Z
+SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ JOGA HATHA
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=296&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=296&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:af6a512474076b8a8e9048aa2feb26c2ce46e517@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260319T070000Z
+DTEND:20260319T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:3be8e2e4eead224b547671f125f09697db2aa34f@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260319T170000Z
+DTEND:20260319T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
+ oga
+LOCATION:Fitness Platinium Klimeckiego
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/6/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:ea8ce5997604df80866c3039b2930b4a06c654d2@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260319T170000Z
+DTEND:20260319T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:a02950e2fa65af4a6da319170d1a11f48b869266@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260320T180000Z
+DTEND:20260320T185500Z
+SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
+ ga
+LOCATION:Fitness Platinium The Legend
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/5/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:a301525d9a249112dd57ff83fe73c5614f369c33@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260322T090000Z
+DTEND:20260322T095500Z
+SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ Joga
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:502be04165220938897c95c16b826953acce9f5c@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260323T170000Z
+DTEND:20260323T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:26e0b1db5fb628d0af5cef7d257b2a47a9e1c6cb@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260324T070000Z
+DTEND:20260324T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:75833d244e09cd4407f93211f0581e183affb9be@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260325T190000Z
+DTEND:20260325T195500Z
+SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ JOGA HATHA
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=296&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=296&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:80f03c2d260d74d22f6fba59272f461000074f61@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260326T070000Z
+DTEND:20260326T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:710e9160329860bb89c3ce182df17680f463ae91@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260326T170000Z
+DTEND:20260326T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
+ oga
+LOCATION:Fitness Platinium Klimeckiego
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/6/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:b5db073e08ac9c56577ce3f7b37bb892ad7fc20f@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260326T170000Z
+DTEND:20260326T180000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:f879095fce3d1b05261211221ce68da79b41cb27@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260327T180000Z
+DTEND:20260327T185500Z
+SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
+ ga
+LOCATION:Fitness Platinium The Legend
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/5/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:2f1c12f6006dbc2b5312172d121fd9d68f9dbf11@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260329T080000Z
+DTEND:20260329T085500Z
+SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ Joga
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:e18f2333d0ec6e72c455c86d8b9bc45a2c87eaf5@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260330T160000Z
+DTEND:20260330T170000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:0e9cf16a764bc831401fc391743cf200ea6f3109@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260331T060000Z
+DTEND:20260331T065500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:29b76c52cf890cedd5543658771e1cd9a0f29b97@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260401T180000Z
+DTEND:20260401T185500Z
+SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
+ JOGA HATHA
+LOCATION:Fitness Platinium Aleja Pokoju
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/4/Calendar?timeTableId=296&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
+ ?timeTableId=296&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:29caf49644068ce8f0231f46d3d668051bff87a5@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260402T060000Z
+DTEND:20260402T065500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
+  Joga
+LOCATION:Fitness Platinium Bratysławska
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/2/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:09e4277077d5cd32280ad1e3ba864f7fdd3c2442@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260402T160000Z
+DTEND:20260402T165500Z
+SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
+ oga
+LOCATION:Fitness Platinium Klimeckiego
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/6/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
+ ?timeTableId=22&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:39b10c1ac7c376cc64a6d088a9599c378f4b0643@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260402T160000Z
+DTEND:20260402T170000Z
+SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
+ el | Kalistenika
+LOCATION:Fitness Platinium Solvay Park
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/10/Calendar?timeTableId=36&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
+ r?timeTableId=36&date=2026-02-27
+END:VEVENT
+BEGIN:VEVENT
+UID:ec7d4caafda07caf0f651bd2bcccd1ca7e9598b3@fp-smartplatinium
+DTSTAMP:20260227T161631Z
+DTSTART:20260403T170000Z
+DTEND:20260403T175500Z
+SUMMARY:19:00 Joga | Fitness Platinium The Legend | Viktoria Oshurkova | Jo
+ ga
+LOCATION:Fitness Platinium The Legend
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/5/Calendar?timeTableId=22&date=2026-02-27
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar
+ ?timeTableId=22&date=2026-02-27
 END:VEVENT
 END:VCALENDAR

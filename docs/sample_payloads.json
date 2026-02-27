@@ -11,18 +11,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -38,18 +50,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -65,18 +89,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -92,18 +128,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -119,18 +167,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -146,18 +206,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -173,18 +245,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -200,18 +284,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -227,18 +323,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   },
@@ -254,18 +362,30 @@
         "x-requested-with"
       ]
     },
-    "weekly_samples": [
+    "weeks_fetched": [
       {
-        "week_start": "2026-02-23",
-        "len": 2
+        "week_start": "2026-02-27",
+        "ok": true
       },
       {
-        "week_start": "2026-03-02",
-        "len": 2
+        "week_start": "2026-03-06",
+        "ok": true
       },
       {
-        "week_start": "2026-03-09",
-        "len": 2
+        "week_start": "2026-03-13",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-20",
+        "ok": true
+      },
+      {
+        "week_start": "2026-03-27",
+        "ok": true
+      },
+      {
+        "week_start": "2026-04-03",
+        "ok": true
       }
     ]
   }
