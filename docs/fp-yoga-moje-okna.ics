@@ -9,67 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:4150d5c556fb0f5d3e75d7e96b8c52c318b977ce@fp-smartplatinium
-DTSTAMP:20260227T161631Z
+DTSTAMP:20260228T060215Z
 DTSTART:20260305T170000Z
 DTEND:20260305T175500Z
 SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
  oga
 LOCATION:Fitness Platinium Klimeckiego
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-02-27
+ /Classes/6/Calendar?timeTableId=22&date=2026-02-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-02-27
-END:VEVENT
-BEGIN:VEVENT
-UID:d9c32956c984f728a28c4ebf0eff2ec868b88bba@fp-smartplatinium
-DTSTAMP:20260227T161631Z
-DTSTART:20260312T170000Z
-DTEND:20260312T175500Z
-SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
- oga
-LOCATION:Fitness Platinium Klimeckiego
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-02-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-02-27
-END:VEVENT
-BEGIN:VEVENT
-UID:3be8e2e4eead224b547671f125f09697db2aa34f@fp-smartplatinium
-DTSTAMP:20260227T161631Z
-DTSTART:20260319T170000Z
-DTEND:20260319T175500Z
-SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
- oga
-LOCATION:Fitness Platinium Klimeckiego
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-02-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-02-27
-END:VEVENT
-BEGIN:VEVENT
-UID:710e9160329860bb89c3ce182df17680f463ae91@fp-smartplatinium
-DTSTAMP:20260227T161631Z
-DTSTART:20260326T170000Z
-DTEND:20260326T175500Z
-SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
- oga
-LOCATION:Fitness Platinium Klimeckiego
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-02-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-02-27
-END:VEVENT
-BEGIN:VEVENT
-UID:09e4277077d5cd32280ad1e3ba864f7fdd3c2442@fp-smartplatinium
-DTSTAMP:20260227T161631Z
-DTSTART:20260402T160000Z
-DTEND:20260402T165500Z
-SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
- oga
-LOCATION:Fitness Platinium Klimeckiego
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-02-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-02-27
+ ?timeTableId=22&date=2026-02-28
 END:VEVENT
 END:VCALENDAR
