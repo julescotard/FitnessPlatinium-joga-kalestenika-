@@ -8,29 +8,258 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:4150d5c556fb0f5d3e75d7e96b8c52c318b977ce@fp-smartplatinium
-DTSTAMP:20260228T060215Z
-DTSTART:20260305T170000Z
-DTEND:20260305T175500Z
+UID:a496ff3302a4af1baa9c59e7d19ca8d02896f6e1@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260307T080000Z
+DTEND:20260307T085500Z
+SUMMARY:09:00 Joga | Fitness Platinium Bronowice | Natalia Kowalska | BODYP
+ UMP Les Mills
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:d789a0223439883ffef2016012702dd784de30d3@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260307T090000Z
+DTEND:20260307T095500Z
+SUMMARY:10:00 Joga | Fitness Platinium Bronowice | Natalia Kowalska | Pilat
+ es
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:5ade544fc10758a850bf62becddcf616400d9c31@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260307T160000Z
+DTEND:20260307T165500Z
+SUMMARY:17:00 Joga | Fitness Platinium Bronowice | Karina Piwowarska | Zdro
+ wy Kręgosłup
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:4d900f4589daf98b69811aad1c7cb16c35c8c66a@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260307T160000Z
+DTEND:20260307T165500Z
+SUMMARY:17:00 Joga | Fitness Platinium Bronowice | Robert Waszkiewicz | Ind
+ oor Cycling
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3c67170d4a1cb7236d5a85b0339098fdfe2463@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260307T160000Z
+DTEND:20260307T165500Z
+SUMMARY:17:00 Joga | Fitness Platinium Bronowice | Dustin Kulwicki | Darmow
+ y trening personalny
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:7b095e21a9cf7f163449293962177770b41c4761@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260307T170000Z
+DTEND:20260307T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Bronowice | Dustin Kulwicki | Darmow
+ y trening personalny
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:67463dbb7c4ffeaf4f5a8f104244a59231194509@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260309T070000Z
+DTEND:20260309T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bronowice | Joanna Pasternak | ABT
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:22aeac9ff85c55716f454f701b09a9512ef473a3@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260309T080000Z
+DTEND:20260309T085500Z
+SUMMARY:09:00 Joga | Fitness Platinium Bronowice | Joanna Pasternak | FULL 
+ BODY WORKOUT
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:135f47f99db541c391d977012fd9d8df022954af@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260309T080000Z
+DTEND:20260309T085500Z
+SUMMARY:09:00 Joga | Fitness Platinium Bronowice | Robert Waszkiewicz | Ind
+ oor Cycling
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:52c474ebfe91547881fbdb896a887013f4b0581b@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260309T090000Z
+DTEND:20260309T095500Z
+SUMMARY:10:00 Joga | Fitness Platinium Bronowice | Honorata Osip | Zdrowy K
+ ręgosłup
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:5094416b94155d5be554237b29b40595e4f9bcaa@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260311T070000Z
+DTEND:20260311T075500Z
+SUMMARY:08:00 Joga | Fitness Platinium Bronowice | Oleh Dakhovych | Pilates
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:54d0a01b513190ec81df5416e2179022e9286a3b@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260311T080000Z
+DTEND:20260311T085500Z
+SUMMARY:09:00 Joga | Fitness Platinium Bronowice | Iwona Kot | ABS & CORE
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:1bed506aa5381a9f6e00e8c68cc0ab46b1ce301b@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260311T080000Z
+DTEND:20260311T085500Z
+SUMMARY:09:00 Joga | Fitness Platinium Bronowice | Robert Waszkiewicz | Ind
+ oor Cycling
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:78132426b9e4261307bb00b6af4406c403103f17@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260311T090000Z
+DTEND:20260311T095500Z
+SUMMARY:10:00 Joga | Fitness Platinium Bronowice | Iwona Kot | Stretching
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:e4b76c83288a8efaf1b49a3e9bfbc79a81050865@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T160000Z
+DTEND:20260312T165500Z
+SUMMARY:17:00 Joga | Fitness Platinium Bronowice | Karina Piwowarska | Taba
+ ta
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:0957c01fb23466bf31f13aae911cb0476ac3f977@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T160000Z
+DTEND:20260312T165500Z
+SUMMARY:17:00 Joga | Fitness Platinium Bronowice | Robert Waszkiewicz | Ind
+ oor Cycling Interwał
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:16c4b348c680a7c8ec9a93c35f97828eceb3cc6d@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T170000Z
+DTEND:20260312T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Bronowice | Natalia Kowalska | ABT
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:832a7caf582304ac61fa74986f566c6d04eef5bc@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T170000Z
+DTEND:20260312T175500Z
+SUMMARY:18:00 Joga | Fitness Platinium Bronowice | Robert Waszkiewicz | Ind
+ oor Cycling Wytrzymałość
+LOCATION:Fitness Platinium Bronowice
+DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-07
+URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
+ ?timeTableId=22&date=2026-03-07
+END:VEVENT
+BEGIN:VEVENT
+UID:d9c32956c984f728a28c4ebf0eff2ec868b88bba@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T170000Z
+DTEND:20260312T175500Z
 SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
  oga
 LOCATION:Fitness Platinium Klimeckiego
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-02-28
+ /Classes/6/Calendar?timeTableId=22&date=2026-03-07
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-02-28
+ ?timeTableId=22&date=2026-03-07
 END:VEVENT
 BEGIN:VEVENT
-UID:ce74a172288ff070c109d46a2eaea04b694054ee@fp-smartplatinium
-DTSTAMP:20260228T060215Z
-DTSTART:20260305T170000Z
-DTEND:20260305T180000Z
+UID:0815267ed05aa111ea4220d214435da6a2d6fae1@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T170000Z
+DTEND:20260312T180000Z
 SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
  el | Kalistenika
 LOCATION:Fitness Platinium Solvay Park
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36&date=2026-02-28
+ /Classes/10/Calendar?timeTableId=36&date=2026-03-07
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36&date=2026-02-28
+ r?timeTableId=36&date=2026-03-07
 END:VEVENT
 END:VCALENDAR

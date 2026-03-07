@@ -1,4 +1,4 @@
 # Zmiany (joga/kalistenika)
-- wygenerowano: **2026-02-28T07:02:15+01:00**
+- wygenerowano: **2026-03-07T07:05:34+01:00**
 - zakres: **8 dni do przodu**
-- terminy: all=9, yoga=7, calisthenics=2, moje_okna=2
+- terminy: all=66, yoga=64, calisthenics=2, moje_okna=20

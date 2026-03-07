@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-28T07:02:15+01:00",
+  "generated_at": "2026-03-07T07:05:34+01:00",
   "days_ahead": 8,
   "event_counts": {
-    "all": 9,
-    "yoga": 7,
+    "all": 66,
+    "yoga": 64,
     "calisthenics": 2,
-    "my_windows": 2
+    "my_windows": 20
   },
   "clubs_seen": {
     "Fitness Platinium Aleja Pokoju :: 22": {
@@ -13,9 +13,9 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=22",
-      "calls": 30,
-      "blobs": 3,
-      "events_found": 2,
+      "calls": 44,
+      "blobs": 4,
+      "events_found": 6,
       "forced_category": "yoga",
       "template_used": true
     },
@@ -24,7 +24,7 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296",
-      "calls": 16,
+      "calls": 3,
       "blobs": 4,
       "events_found": 3,
       "forced_category": "yoga",
@@ -35,8 +35,8 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/1/Calendar?timeTableId=21",
-      "calls": 2,
-      "blobs": 3,
+      "calls": 3,
+      "blobs": 4,
       "events_found": 0,
       "forced_category": "",
       "template_used": true
@@ -57,9 +57,9 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22",
-      "calls": 3,
+      "calls": 4,
       "blobs": 4,
-      "events_found": 3,
+      "events_found": 57,
       "forced_category": "yoga",
       "template_used": true
     },
@@ -101,7 +101,7 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/5/Calendar?timeTableId=22",
-      "calls": 4,
+      "calls": 3,
       "blobs": 4,
       "events_found": 1,
       "forced_category": "yoga",
@@ -112,8 +112,8 @@
       "calisthenics": false,
       "ok": true,
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/3/Calendar?timeTableId=21",
-      "calls": 3,
-      "blobs": 4,
+      "calls": 2,
+      "blobs": 3,
       "events_found": 0,
       "forced_category": "",
       "template_used": true

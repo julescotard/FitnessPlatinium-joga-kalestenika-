@@ -8,29 +8,29 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:23f3f50eea3c05babc26904d1db0f107102a4c55@fp-smartplatinium
-DTSTAMP:20260228T060215Z
-DTSTART:20260302T170000Z
-DTEND:20260302T180000Z
+UID:7f6e8e04ec718eff61219aaa77692c9225c6884a@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260309T170000Z
+DTEND:20260309T180000Z
 SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
  el | Kalistenika
 LOCATION:Fitness Platinium Solvay Park
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36&date=2026-02-28
+ /Classes/10/Calendar?timeTableId=36&date=2026-03-07
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36&date=2026-02-28
+ r?timeTableId=36&date=2026-03-07
 END:VEVENT
 BEGIN:VEVENT
-UID:ce74a172288ff070c109d46a2eaea04b694054ee@fp-smartplatinium
-DTSTAMP:20260228T060215Z
-DTSTART:20260305T170000Z
-DTEND:20260305T180000Z
+UID:0815267ed05aa111ea4220d214435da6a2d6fae1@fp-smartplatinium
+DTSTAMP:20260307T060534Z
+DTSTART:20260312T170000Z
+DTEND:20260312T180000Z
 SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
  el | Kalistenika
 LOCATION:Fitness Platinium Solvay Park
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36&date=2026-02-28
+ /Classes/10/Calendar?timeTableId=36&date=2026-03-07
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36&date=2026-02-28
+ r?timeTableId=36&date=2026-03-07
 END:VEVENT
 END:VCALENDAR
