@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-26T07:19:48+01:00",
+  "generated_at": "2026-03-27T07:20:53+01:00",
   "days_ahead": 8,
   "event_counts": {
-    "all": 188,
-    "yoga": 186,
-    "calisthenics": 2,
-    "my_windows": 27
+    "all": 158,
+    "yoga": 157,
+    "calisthenics": 1,
+    "my_windows": 21
   },
   "clubs_seen": {
     "Fitness Platinium Aleja Pokoju :: 22": {
@@ -26,7 +26,7 @@
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar?timeTableId=296",
       "calls": 4,
       "blobs": 4,
-      "events_found": 180,
+      "events_found": 152,
       "forced_category": "yoga",
       "template_used": true
     },
@@ -48,7 +48,7 @@
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar?timeTableId=22",
       "calls": 3,
       "blobs": 4,
-      "events_found": 6,
+      "events_found": 3,
       "forced_category": "yoga",
       "template_used": true
     },
@@ -59,7 +59,7 @@
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar?timeTableId=22",
       "calls": 3,
       "blobs": 4,
-      "events_found": 3,
+      "events_found": 6,
       "forced_category": "yoga",
       "template_used": true
     },
@@ -81,7 +81,7 @@
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar?timeTableId=22",
       "calls": 3,
       "blobs": 4,
-      "events_found": 4,
+      "events_found": 1,
       "forced_category": "yoga",
       "template_used": true
     },
@@ -92,7 +92,7 @@
       "url": "https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calendar?timeTableId=36",
       "calls": 3,
       "blobs": 4,
-      "events_found": 6,
+      "events_found": 3,
       "forced_category": "calisthenics",
       "template_used": true
     },

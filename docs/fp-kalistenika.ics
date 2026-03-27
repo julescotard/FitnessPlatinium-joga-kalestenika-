@@ -8,29 +8,16 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:b5db073e08ac9c56577ce3f7b37bb892ad7fc20f@fp-smartplatinium
-DTSTAMP:20260326T061948Z
-DTSTART:20260326T170000Z
-DTEND:20260326T180000Z
-SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
- el | Kalistenika
-LOCATION:Fitness Platinium Solvay Park
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36&date=2026-03-26
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36&date=2026-03-26
-END:VEVENT
-BEGIN:VEVENT
 UID:e18f2333d0ec6e72c455c86d8b9bc45a2c87eaf5@fp-smartplatinium
-DTSTAMP:20260326T061948Z
+DTSTAMP:20260327T062053Z
 DTSTART:20260330T160000Z
 DTEND:20260330T170000Z
 SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
  el | Kalistenika
 LOCATION:Fitness Platinium Solvay Park
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36&date=2026-03-26
+ /Classes/10/Calendar?timeTableId=36&date=2026-03-27
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36&date=2026-03-26
+ r?timeTableId=36&date=2026-03-27
 END:VEVENT
 END:VCALENDAR
