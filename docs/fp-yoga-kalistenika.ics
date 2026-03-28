@@ -8,2054 +8,1704 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:1726f10c634f6d9c7acb7e870ee5313b997c158a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T053000Z
-DTEND:20260327T064500Z
-SUMMARY:06:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:95a5eb228ee097b4a3f0bdfcfc96e3251748023a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T063000Z
-DTEND:20260327T074500Z
-SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:1f17a3873163bd7b8c0ca4645a64950d336f1c8d@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T080000Z
-DTEND:20260327T085500Z
-SUMMARY:09:00 Joga | Fitness Platinium Aleja Pokoju | Ewelina Domagała | B
- ODYPUMP Les Mills
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:2247f594afc64fb6c6a40e5e8562bfb7566029a0@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T090000Z
-DTEND:20260327T095500Z
-SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Ewelina Domagała | Z
- drowy Kręgosłup
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:ca08ef2ea467eba54b72d17b74d43513f4a13a95@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T090000Z
-DTEND:20260327T095500Z
-SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Platinium Team | INTR
- O
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:18437e9f741babf1b39a8243f552d61c0cdf7985@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T143000Z
-DTEND:20260327T154500Z
-SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:7417ed2650f71b104532faaea4438ceea64bcce8@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T143000Z
-DTEND:20260327T154500Z
-SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:0492669dbbc14dd720000aa651512d51d01832b3@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T150000Z
-DTEND:20260327T155500Z
-SUMMARY:16:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
- Kettlebells
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:663f800ca68002f24d94849e7f2b13650d817c64@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T153000Z
-DTEND:20260327T164500Z
-SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:a6fd920b12a5838acb86e34b2d0695295677106b@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T153000Z
-DTEND:20260327T164500Z
-SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:7f9fc43274d46e3da84adccb1c67538d258b3f89@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T160000Z
-DTEND:20260327T165500Z
-SUMMARY:17:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
- Tabata
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:cf9e91c66265dca7c2c7f081d5d89cae7d9cdd61@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T163000Z
-DTEND:20260327T174500Z
-SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:ae5b08338fea1051e4f76484ab8a390b3d21e176@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T163000Z
-DTEND:20260327T174500Z
-SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:b5329578eaa2433cb3398700dbd021aefb20b257@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T170000Z
-DTEND:20260327T175500Z
-SUMMARY:18:00 Joga | Fitness Platinium Aleja Pokoju | Joanna Sikora | TBC+S
- tep
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:8b9953d4f95cdd744354aa04f93354091216b534@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T170000Z
-DTEND:20260327T175500Z
-SUMMARY:18:00 Joga | Fitness Platinium Aleja Pokoju | Julia Styła | Indoor
-  Cycling Siła
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:0ed07f1eba8faa26b2b25301dceeb27cb018fa9f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T173000Z
-DTEND:20260327T184500Z
-SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:a241720d222127423c87e0c3850f245831df7b3f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T173000Z
-DTEND:20260327T184500Z
-SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:31de16ffb57c6941ebb2d1e42a01dd6191473331@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T180000Z
-DTEND:20260327T185500Z
-SUMMARY:19:00 Joga | Fitness Platinium Aleja Pokoju | Joanna Sikora | Zdrow
- y Kręgosłup
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:1288804edb36c3f5fecb2a97ca8043cd266628f3@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T180000Z
-DTEND:20260327T185500Z
-SUMMARY:19:00 Joga | Fitness Platinium Aleja Pokoju | Julia Styła | Indoor
-  Cycling Wytrzymałość
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:389b3fa31bdd9072834342141902552ae0991a8b@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T183000Z
-DTEND:20260327T194500Z
-SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:90e0856a30bed748bf282a41f2f2a0139669e603@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T183000Z
-DTEND:20260327T194500Z
-SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:ef9bfb48e4e45fab031214d87fe6672278e9e6c3@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T190000Z
-DTEND:20260327T195500Z
-SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Joanna Sikora | ABT
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:0be00720eb25f6b7dea5ab8241d7685353e263df@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T193000Z
-DTEND:20260327T204500Z
-SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:ee722d11264178ebbe9c4233ab8a0a8c38f155a2@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T193000Z
-DTEND:20260327T204500Z
-SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:cab88f9018de60f11d3d258714cc185a9c68d90c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T203000Z
-DTEND:20260327T214500Z
-SUMMARY:21:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 1
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:bb798d127b4ec4e041d22bee0d88a5c5f30eec61@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260327T203000Z
-DTEND:20260327T214500Z
-SUMMARY:21:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
- - Kort 2
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
 UID:771d5e3c96ac3b69e891f6b90955e4b57590c024@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T063000Z
 DTEND:20260328T074500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:8a18202afdcd80b6aa2e99695b255aed56147620@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T063000Z
 DTEND:20260328T074500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:67695a85483954d6661784777a340fc689799e4e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T073000Z
 DTEND:20260328T084500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:5bb471917e0a0da776322e393a48c7e85e3d7e61@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T073000Z
 DTEND:20260328T084500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2eaa4a7c2b7f72c0bae1649abff5b0f98ec7e542@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T080000Z
 DTEND:20260328T085500Z
 SUMMARY:09:00 Joga | Fitness Platinium Aleja Pokoju | Oleh Dakhovych | BE A
  CTIVE
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
-END:VEVENT
-BEGIN:VEVENT
-UID:4dd8acf77c443d6f8dd01249ed05fe7bfa150491@fp-smartplatinium
-DTSTAMP:20260327T062053Z
-DTSTART:20260328T080000Z
-DTEND:20260328T085500Z
-SUMMARY:09:00 Joga | Fitness Platinium Aleja Pokoju | Platinium Team | Indo
- or Cycling Wytrzymałość
-LOCATION:Fitness Platinium Aleja Pokoju
-DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
-URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:25979dbd49f37105b774c3609186fb65c799592c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T083000Z
 DTEND:20260328T094500Z
 SUMMARY:09:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:b8f0fce6e48fc4a2883412a8e7df185d629753c5@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T083000Z
 DTEND:20260328T094500Z
 SUMMARY:09:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:9cd575a11624ca2eb9c0ffff8fbe395ed1019974@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T090000Z
 DTEND:20260328T095500Z
 SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Oleh Dakhovych | Pila
  tes/Stretching
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5c9030291d759866dc84ae80a0e9443849b82a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T090000Z
 DTEND:20260328T095500Z
 SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Platinium Team | Indo
  or Cycling Interwał
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:c95085b8da14f7c777ba252a73fc0b46be871ff7@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T093000Z
 DTEND:20260328T104500Z
 SUMMARY:10:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6ee41fee72854653ad46ac5f7c11ded50a1b4eed@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T093000Z
 DTEND:20260328T104500Z
 SUMMARY:10:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:78173390a1e35f70dbf800bf69a1b64fb32d6a63@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T103000Z
 DTEND:20260328T114500Z
 SUMMARY:11:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:becd0ae1bb17f6f6e883c557dc1c0f72d6b14fec@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T103000Z
 DTEND:20260328T114500Z
 SUMMARY:11:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:866b0456e1d26039f980252c5138973f1c7cc460@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T113000Z
 DTEND:20260328T124500Z
 SUMMARY:12:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:0f142d1cfa9d6c545189ced8653482aedf950049@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T113000Z
 DTEND:20260328T124500Z
 SUMMARY:12:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:a426d01f1fc2da6508fc771a13eb30aefc2201a0@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T123000Z
 DTEND:20260328T134500Z
 SUMMARY:13:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:48896d7548c3dca07c43df1a97cf803405af2852@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T123000Z
 DTEND:20260328T134500Z
 SUMMARY:13:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:cbfa336771b12b61817472a46502cd9ec443e805@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T133000Z
 DTEND:20260328T144500Z
 SUMMARY:14:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:afe28f9af19654407c43d0e194f67d70968239a3@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T133000Z
 DTEND:20260328T144500Z
 SUMMARY:14:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:631b2cac506453a19cf25f87d8c0c052d47184ce@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T143000Z
 DTEND:20260328T154500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:54eb41d8dff96cfc1013c307f687b3c529919edd@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T143000Z
 DTEND:20260328T154500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f2b2ca61d217e6d4c24983173cfebf420fbf25d9@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T153000Z
 DTEND:20260328T164500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:70f1d35b11a0d98167cf54759edbb46e983cd79e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T153000Z
 DTEND:20260328T164500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:e8d61133e81d50e86c6c74f2c97c500d5d15341e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T163000Z
 DTEND:20260328T174500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:4dee742f2e173aecab36c90ef652ac83011b08fa@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T163000Z
 DTEND:20260328T174500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:65370aad541495a0a42075c8e82a2c409285030f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T170000Z
 DTEND:20260328T175500Z
 SUMMARY:18:00 Joga | Fitness Platinium Aleja Pokoju | Agata Wójcik | Body 
  Shape
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:8cbb5a1605d3a43ea3387c372a8ffc291207c99e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T173000Z
 DTEND:20260328T184500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f820bc2f039049d634a0022c38bc482c5f77129a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T173000Z
 DTEND:20260328T184500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:bde56fdb56479b499f2982df6af3354bcc6d805b@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T180000Z
 DTEND:20260328T185500Z
 SUMMARY:19:00 Joga | Fitness Platinium Aleja Pokoju | Agata Wójcik | Stret
  ching
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:a8cc2ad9615ab7622aa5bf22fd9c062c72a8956c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T183000Z
 DTEND:20260328T194500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:276f84d21b736c880bbe24a59c9600ec8f57aa67@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T183000Z
 DTEND:20260328T194500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f5b24901ffd8d1529381cac771f1ebc8e6b171af@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T193000Z
 DTEND:20260328T204500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:a5d23ef21c6da9f8518412fdda11c1eee2f9aba9@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260328T193000Z
 DTEND:20260328T204500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:8ac6a85e8579202cdbd305f04f36a4efec8e7022@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T053000Z
 DTEND:20260329T064500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:ec9f8895976f1c310c1aa7b29c6ff9feb394d6eb@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T053000Z
 DTEND:20260329T064500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:aba5678e954195edb32f44c0ed3e7b522c63acdb@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T063000Z
 DTEND:20260329T074500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:99330cece005771bb4dad180ae28e93110466517@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T063000Z
 DTEND:20260329T074500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f45b0566aceb8e11bbe6050682267879a5dc7fed@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T070000Z
 DTEND:20260329T075500Z
 SUMMARY:09:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  Tabata
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:4c078f0b2825300efb398432ffe973b3a68a8bb1@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T073000Z
 DTEND:20260329T084500Z
 SUMMARY:09:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f9fd380b766b5bddd71de45b0e58953c42a8d8fe@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T073000Z
 DTEND:20260329T084500Z
 SUMMARY:09:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2f1c12f6006dbc2b5312172d121fd9d68f9dbf11@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T080000Z
 DTEND:20260329T085500Z
 SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  Joga
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=22&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=22&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=22&date=2026-03-27
+ ?timeTableId=22&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2e06730ae87be5ecb1bb594e66ca62001531ae38@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T080000Z
 DTEND:20260329T085500Z
 SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  Joga
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:634e8a9691781d82c77ca904f0e3760556b36b47@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T083000Z
 DTEND:20260329T094500Z
 SUMMARY:10:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f989cfad72ac5e4381a1f2403693b7172c85e594@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T083000Z
 DTEND:20260329T094500Z
 SUMMARY:10:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2f7db12114ded199786112284b2355a7b357a991@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T093000Z
 DTEND:20260329T104500Z
 SUMMARY:11:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:cd2dfc4556e96c09f1da777ec0c7b0bd9f2e073a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T093000Z
 DTEND:20260329T104500Z
 SUMMARY:11:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:bef5888ab9c1a01e59315e0b2b247771dcb12629@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T103000Z
 DTEND:20260329T114500Z
 SUMMARY:12:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:63ec3c084cd54325b0b8a437db5e72f17dee37a7@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T103000Z
 DTEND:20260329T114500Z
 SUMMARY:12:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:b6a99f19923dfd1aa7e89974eda1cbce66f7c9a3@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T113000Z
 DTEND:20260329T124500Z
 SUMMARY:13:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:ed9ea0a1ac3471d4706e2a35338e6e6af6c7e78e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T113000Z
 DTEND:20260329T124500Z
 SUMMARY:13:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:04cb9b403f0568c7c56a2eba7d43c8f9ded26c5b@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T123000Z
 DTEND:20260329T134500Z
 SUMMARY:14:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6d1cfb53cab5414b75f02cba65c56cdd8d949b55@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T123000Z
 DTEND:20260329T134500Z
 SUMMARY:14:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:07935ace0fb3634b30e6bc8ad249395d803e75c1@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T133000Z
 DTEND:20260329T144500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:0fae96b80684e29acf0e46a41165b3d8c8f3412f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T133000Z
 DTEND:20260329T144500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:ec05562f8203a3ce2d6251a3c11cf2fadc4334a1@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T143000Z
 DTEND:20260329T154500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f6ccbcd85d4fbdb3d8c66697049dad56c77fcdb8@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T143000Z
 DTEND:20260329T154500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:0632b32e6e0032bacc2f5b715875c5a6b726305f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T150000Z
 DTEND:20260329T155500Z
 SUMMARY:17:00 Joga | Fitness Platinium Aleja Pokoju | Dominika Sroka | BODY
  PUMP Les Mills
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:b0e8b68538728a95829db400c7d0b6e5c35b5f28@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T150000Z
 DTEND:20260329T155500Z
 SUMMARY:17:00 Joga | Fitness Platinium Bronowice | Viktoria Oshurkova | Jog
  a
 LOCATION:Fitness Platinium Bronowice
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/8/Calendar?timeTableId=22&date=2026-03-27
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
- ?timeTableId=22&date=2026-03-27
+ ?timeTableId=22&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:99a251c0a894fe97dc09cf88dbde2db07b0fc393@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T153000Z
 DTEND:20260329T164500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:33290c61adaf2e8c721bef8d3edc7b27a789fdb8@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T153000Z
 DTEND:20260329T164500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:7e73788b2b0d778d72b2f401e16924f4b88c6f7c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T160000Z
 DTEND:20260329T165500Z
 SUMMARY:18:00 Joga | Fitness Platinium Aleja Pokoju | Dominika Sroka | 🆕
  LES MILLS BODYPUMP HEAVY™
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2200fab8b9aa8d597ba516d9d90cd044c2ff95c2@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T163000Z
 DTEND:20260329T174500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:fd63b3f25b596e087a8df2c1ffaa410a67e902a4@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T163000Z
 DTEND:20260329T174500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:79a5906daa39ebef9707dee434a2ea34e854a8fe@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T173000Z
 DTEND:20260329T184500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:967d705255994408374d35dbd807c26ab5869c9f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T173000Z
 DTEND:20260329T184500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6054538ccc85fe66125ac7832d74b9d94f1a3594@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T183000Z
 DTEND:20260329T194500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:9a0968bbdd2375e1bbd285e530cd4b3aee2a5327@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260329T183000Z
 DTEND:20260329T194500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:3bf53fe560bc4eb00eb9267405ffcaadf2685d58@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T043000Z
 DTEND:20260330T054500Z
 SUMMARY:06:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:06eba0480089d4925721f91ada7caaa4802a7a7c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T043000Z
 DTEND:20260330T054500Z
 SUMMARY:06:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5de4ceddd24e034c088e49c227d6b1d93fa64a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T053000Z
 DTEND:20260330T064500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:1b6bc656ceafa031b3b021e5d29296ad2680c33f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T053000Z
 DTEND:20260330T064500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f6aa7f2a5aa8bf422227ad54a9b655ac7227a0b6@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T063000Z
 DTEND:20260330T074500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:34eb535cbda081a40ba80f300c624c002799609c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T063000Z
 DTEND:20260330T074500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:06e5034a32b50fd67f7f0fc763e179b7999b1f3e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T070000Z
 DTEND:20260330T080000Z
 SUMMARY:09:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  BE ACTIVE
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:fcfd03c9d466d1eec2ac684063a9b8c64627558e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T080000Z
 DTEND:20260330T085500Z
 SUMMARY:10:00 Joga | Fitness Platinium Aleja Pokoju | Viktoria Oshurkova | 
  BE HEALTHY
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:287ba9b5a4015d00986c3365ea6bbe4a4df68cf9@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T133000Z
 DTEND:20260330T144500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:ea5efe1b63f48e74aa6ddf2716dae54519c83b4f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T133000Z
 DTEND:20260330T144500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f8cda5c5153544cc3ef820654a7d6c35a2c558ad@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T140000Z
 DTEND:20260330T145500Z
 SUMMARY:16:00 Joga | Fitness Platinium Aleja Pokoju | Natalia Kowalska | FU
  LL BODY WORKOUT
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:527d0993eb75718981bdfafb0b9377612a71de16@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T143000Z
 DTEND:20260330T154500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:91fc5a6a9722324fd646967c5615a0007f21d3dd@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T143000Z
 DTEND:20260330T154500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:61f54f4eff29cda0a1113730e9d18127f1d6eddd@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T150000Z
 DTEND:20260330T155500Z
 SUMMARY:17:00 Joga | Fitness Platinium Aleja Pokoju | Natalia Kowalska | Zd
  rowy Kręgosłup
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:30650822f0442d762d19504e584c78cf2ceb149b@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T153000Z
 DTEND:20260330T164500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:984a885ea4610bab2c018484743cc35d84f4eca4@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T153000Z
 DTEND:20260330T164500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:371dc5e09920c14f2af9562f7b707bf79af1f249@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T160000Z
 DTEND:20260330T165500Z
 SUMMARY:18:00 Joga | Fitness Platinium Aleja Pokoju | Natalia Kowalska | BO
  DYPUMP Les Mills
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:e18f2333d0ec6e72c455c86d8b9bc45a2c87eaf5@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T160000Z
 DTEND:20260330T170000Z
 SUMMARY:18:00 Kalistenika | Fitness Platinium Solvay Park | Krzysztof Wrób
  el | Kalistenika
 LOCATION:Fitness Platinium Solvay Park
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/10/Calendar?timeTableId=36&date=2026-03-27
+ /Classes/10/Calendar?timeTableId=36&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/10/Calenda
- r?timeTableId=36&date=2026-03-27
+ r?timeTableId=36&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:00a3a6d1c4055fc0bbd446dee9bf8b4282523380@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T163000Z
 DTEND:20260330T173500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | Julia Styła | Indoor
   Cycling Wytrzymałość
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:b1300e8ae3c585e0bef1e37ff231bd3c34f97ffe@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T163000Z
 DTEND:20260330T174500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f0dddf403037be68a47e75b46656c21d6a90c0c2@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T163000Z
 DTEND:20260330T174500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:45ddd46551aaeb3583294101ea09a6c22791a5b2@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T170000Z
 DTEND:20260330T175500Z
 SUMMARY:19:00 Joga | Fitness Platinium Aleja Pokoju | Natalia Kowalska | Ta
  bata
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:634592bd212250c3500aa8553fa034286ea75a5b@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T173000Z
 DTEND:20260330T183500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | Julia Styła | Indoor
   Cycling Interwał
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6c03c56f1ee205dd8d4c6ac6754133f99b4ed274@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T173000Z
 DTEND:20260330T184500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:60357e05b779d38ed3cbdc7f6adfe3a8de8a71de@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T173000Z
 DTEND:20260330T184500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:3c7f2605680dec056c35b09b021b62f7d085061a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T180000Z
 DTEND:20260330T185500Z
 SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Emilia Furman | Zumba
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:fbec56b699445ec56948763ebd829792375f496c@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T180000Z
 DTEND:20260330T185500Z
 SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Platinium Team | INTR
  O
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:e3dd936af07a3a25a9e5f5815529689b56343922@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T183000Z
 DTEND:20260330T194500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:e9ef851b63cfe41482f7854729c84fc3582e5c9d@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T183000Z
 DTEND:20260330T194500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:89eea6dbce06e4b2731ba7f4aaf1f2872b1fee92@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T190000Z
 DTEND:20260330T195500Z
 SUMMARY:21:00 Joga | Fitness Platinium Aleja Pokoju | Emilia Furman | Stret
  ching
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:76703e2b031a332c528dff1bb359dbfc5bab5a42@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T190000Z
 DTEND:20260330T195500Z
 SUMMARY:21:00 Joga | Fitness Platinium Bronowice | Viktoria Oshurkova | Jog
  a
 LOCATION:Fitness Platinium Bronowice
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/8/Calendar?timeTableId=22&date=2026-03-27
+ /Classes/8/Calendar?timeTableId=22&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/8/Calendar
- ?timeTableId=22&date=2026-03-27
+ ?timeTableId=22&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:4f816f5559d2b22741a19045fe043eff70b2b3c5@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T193000Z
 DTEND:20260330T204500Z
 SUMMARY:21:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:55b7d628b6b177cc5602e77a42eb6d3135344dba@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260330T193000Z
 DTEND:20260330T204500Z
 SUMMARY:21:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:54677efb44f2ae04da6e39b29d913373018b6b7e@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T043000Z
 DTEND:20260331T054500Z
 SUMMARY:06:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:d7cb86fbf1517dfaf8578d5954a55ec69937d52f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T043000Z
 DTEND:20260331T054500Z
 SUMMARY:06:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:e2b1250d889aac7618115f75368a3953918d36f9@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T050000Z
 DTEND:20260331T055500Z
 SUMMARY:07:00 Joga | Fitness Platinium Aleja Pokoju | Robert Waszkiewicz | 
  Indoor Cycling Interwał
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:991e8482de1abcbad1e77fa0e2cb5668ed140795@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T053000Z
 DTEND:20260331T064500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6cfaffd24fd21caf5a09fc84e823123278373b27@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T053000Z
 DTEND:20260331T064500Z
 SUMMARY:07:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6a2f2bfeea4fb95707d4f0bf72bfdc5861b90d25@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T060000Z
 DTEND:20260331T065500Z
 SUMMARY:08:00 Joga | Fitness Platinium Aleja Pokoju | Agata Wójcik | LOWER
   BODY WORKOUT
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:0e9cf16a764bc831401fc391743cf200ea6f3109@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T060000Z
 DTEND:20260331T065500Z
 SUMMARY:08:00 Joga | Fitness Platinium Bratysławska | Viktoria Oshurkova |
   Joga
 LOCATION:Fitness Platinium Bratysławska
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/2/Calendar?timeTableId=22&date=2026-03-27
+ /Classes/2/Calendar?timeTableId=22&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/2/Calendar
- ?timeTableId=22&date=2026-03-27
+ ?timeTableId=22&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:b5b9e4f676b79d8d4bcbccf8d8fa2e7b4d2d26bc@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T063000Z
 DTEND:20260331T074500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:bca6d2a46bce5ebef294c3632da09acbfbce4bec@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T063000Z
 DTEND:20260331T074500Z
 SUMMARY:08:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:f42ca1db66044595c624c9492ef5b05035767061@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T070000Z
 DTEND:20260331T075500Z
 SUMMARY:09:00 Joga | Fitness Platinium Aleja Pokoju | Agata Wójcik | Zdrow
  y Kręgosłup
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:c942214818ca4f90c38cc4240313eea65dc16fd4@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T133000Z
 DTEND:20260331T144500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:574582c543840625454acc539dcac6a54d258b50@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T133000Z
 DTEND:20260331T144500Z
 SUMMARY:15:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:332fdb59e8087a018e6b259772dfb610191ea0dd@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T140000Z
 DTEND:20260331T145500Z
 SUMMARY:16:00 Joga | Fitness Platinium Aleja Pokoju | Agata Wójcik | SHAPE
  &TRX
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:3e16aee822bac6fa9acdf368caee54b6bd51b02a@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T143000Z
 DTEND:20260331T154500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:a0fda4467224417fba8e56fa94ac437c42ad9aa6@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T143000Z
 DTEND:20260331T154500Z
 SUMMARY:16:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:91523d38bcbca664cb18b1c1a1a50bb798633910@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T150000Z
 DTEND:20260331T155500Z
 SUMMARY:17:00 Joga | Fitness Platinium Aleja Pokoju | Agata Wójcik | ABS &
   CORE
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:1e3ac83837a4ecff26ed90d32845891570ff8139@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T153000Z
 DTEND:20260331T164500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:b99c67176911c8eb63c41046c8d78490229c765f@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T153000Z
 DTEND:20260331T164500Z
 SUMMARY:17:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:57e0d77820cfaade6ba0e8329e605cffb56faa50@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T160000Z
 DTEND:20260331T165500Z
 SUMMARY:18:00 Joga | Fitness Platinium Aleja Pokoju | Natasza Siódmok | Bo
  dy Shape
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:19078138ebf07a31fbb3198c5e66a7ea15997e94@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T163000Z
 DTEND:20260331T174500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:0799327bba0fcb95cca34488338e5c434dfb7750@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T163000Z
 DTEND:20260331T174500Z
 SUMMARY:18:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:c26cdb29a879b1652216bc6a6a0302e154339c24@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T170000Z
 DTEND:20260331T175500Z
 SUMMARY:19:00 Joga | Fitness Platinium Aleja Pokoju | Natasza Siódmok | Pi
  lates/Stretching
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:d1d19b6e29d20af383618ae5f4e456948d2c1054@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T173000Z
 DTEND:20260331T184500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:6c79b2bfaa453cdbe346717a5d3552ec03d11c88@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T173000Z
 DTEND:20260331T184500Z
 SUMMARY:19:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:5dec08acb3015ffda2774df20c7b9adb6648c200@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T180000Z
 DTEND:20260331T185500Z
 SUMMARY:20:00 Joga | Fitness Platinium Aleja Pokoju | Anna Juza | Zumba
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:95c0040e1a679baf58e24ee66b10840172a2bbb6@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T183000Z
 DTEND:20260331T194500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:3d87efb9c396a63ebe80f494746c1267fc689a38@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T183000Z
 DTEND:20260331T194500Z
 SUMMARY:20:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:4710ee37f1359a928d4b3b052f084671cde8c533@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T190000Z
 DTEND:20260331T195500Z
 SUMMARY:21:00 Joga | Fitness Platinium Aleja Pokoju | Dominika Sroka | BODY
  PUMP Les Mills
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:10381e1b0a1b53f7bf893c0e8677c7fdefb355e4@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T193000Z
 DTEND:20260331T204500Z
 SUMMARY:21:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 1
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:972d8a0cdfcfbcd1ec38dfc231f0eff4471133f5@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260331T193000Z
 DTEND:20260331T204500Z
 SUMMARY:21:30 Joga | Fitness Platinium Aleja Pokoju | bez trenera | Squash 
  - Kort 2
 LOCATION:Fitness Platinium Aleja Pokoju
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/4/Calendar?timeTableId=296&date=2026-03-27
+ /Classes/4/Calendar?timeTableId=296&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/4/Calendar
- ?timeTableId=296&date=2026-03-27
+ ?timeTableId=296&date=2026-03-28
 END:VEVENT
 BEGIN:VEVENT
 UID:09e4277077d5cd32280ad1e3ba864f7fdd3c2442@fp-smartplatinium
-DTSTAMP:20260327T062053Z
+DTSTAMP:20260328T061158Z
 DTSTART:20260402T160000Z
 DTEND:20260402T165500Z
 SUMMARY:18:00 Joga | Fitness Platinium Klimeckiego | Viktoria Oshurkova | J
  oga
 LOCATION:Fitness Platinium Klimeckiego
 DESCRIPTION:Źródło: https://smartplatinium.perfectgym.pl/ClientPortal2/#
- /Classes/6/Calendar?timeTableId=22&date=2026-03-27
+ /Classes/6/Calendar?timeTableId=22&date=2026-03-28
 URL:https://smartplatinium.perfectgym.pl/ClientPortal2/#/Classes/6/Calendar
- ?timeTableId=22&date=2026-03-27
+ ?timeTableId=22&date=2026-03-28
 END:VEVENT
 END:VCALENDAR
